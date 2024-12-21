@@ -1,9 +1,8 @@
 project:
   execute-dir: project
   type: manuscript
-
-post-render:
-  - encrypt.sh
+  post-render:
+    - ./encrypt.sh
 
 manuscript:
   notebooks:
