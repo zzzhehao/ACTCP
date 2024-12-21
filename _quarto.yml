@@ -4,6 +4,8 @@ project:
   post-render:
     - ./encrypt.sh
 
+# jupyter: ./env/bin/python
+
 manuscript:
   notebooks:
     - notebook: introduction.qmd

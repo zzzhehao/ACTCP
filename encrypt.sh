@@ -1,4 +1,5 @@
 #!/bin/bash
+# npm install pagecrypt
 
 # Set your desired password
 PASSWORD="781969402daddd6fe75bb6f605403a35ae21a0b2"
