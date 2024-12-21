@@ -13,7 +13,7 @@ execute:
   freeze: true
 
 bibliography:
-  - ../../../../../80-89 Resources/80 References/80.01 BibTex Bibliography/biology-research.bib
+  - reference.bib
 
 author:
   - name: Zhehao Hu
