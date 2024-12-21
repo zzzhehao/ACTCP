@@ -2,7 +2,6 @@
 
 # Quarto
 /_freeze/
-/_extensions/
 /.quarto/
 /_site/
 *_files/
