@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.39">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Zhehao Hu">
+<meta name="author" content="Jenny Neuhaus">
+<meta name="keywords" content="keyword1, keyword2">
+
+<title>Integrative Taxonomy of Northern Atlantic Acanthocope</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-57a92833092fd6dc0d7710b6bdfff9c5.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-57a92833092fd6dc0d7710b6bdfff9c5.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-ef25b28c10f6397158e364a29626ca35.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-e0446a6670a3b945cc6c43400756bcef.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+
+
+<meta name="citation_title" content="Integrative Taxonomy of Northern Atlantic *Acanthocope*">
+<meta name="citation_abstract" content="Acanthocope">
+<meta name="citation_keywords" content="keyword1,keyword2">
+<meta name="citation_author" content="Zhehao Hu">
+<meta name="citation_author" content="Jenny Neuhaus">
+<meta name="citation_language" content="en">
+<meta name="citation_reference" content="citation_title=Preliminary Notice of the Isopoda collected during the Voyage of H.M.S. &amp;amp;amp;quot;Challenger&amp;quot;. Part 2. Munnopsidae;,citation_author=F E Beddard;,citation_publication_date=1885;,citation_cover_date=1885;,citation_year=1885;,citation_language=en-US;">
+<meta name="citation_reference" content="citation_title=Report on the Isopoda collected by H.M.S. Challenger during the Years 1873-1876. Second Part;,citation_author=Frank Evers Beddard;,citation_publication_date=1886;,citation_cover_date=1886;,citation_year=1886;,citation_fulltext_html_url=http://19thcenturyscience.org/HMSC/HMSC-Reports/Zool-48/README.htm;,citation_volume=17;,citation_journal_title=H.M.S. Challenger Reports;">
+<meta name="citation_reference" content="citation_title=Does the Mid-Atlantic Ridge affect the distribution of abyssal benthic crustaceans across the Atlantic Ocean?;,citation_abstract=A trans-Atlantic transect along the Vema Fracture Zone was sampled during the Vema-TRANSIT expedition in 2014/15. The aim of the cruise was to investigate whether the Mid-Atlantic Ridge (MAR) isolates the abyssal fauna of the western and eastern abyssal basins.;,citation_author=Simon Bober;,citation_author=Saskia Brix;,citation_author=Torben Riehl;,citation_author=Martin Schwentner;,citation_author=Angelika Brandt;,citation_publication_date=2018-02;,citation_cover_date=2018-02;,citation_year=2018;,citation_fulltext_html_url=https://linkinghub.elsevier.com/retrieve/pii/S096706451630412X;,citation_doi=10.1016/j.dsr2.2018.02.007;,citation_issn=09670645;,citation_volume=148;,citation_language=en-US;,citation_journal_title=Deep Sea Research Part II: Topical Studies in Oceanography;">
+<meta name="citation_reference" content="citation_title=Le genre Acanthocope Beddard (Isopode Asellote) : description de deux espèces nouvelles. Remarques taxinomiques et biogéographiques;,citation_author=Pierre Chardy;,citation_publication_date=1972;,citation_cover_date=1972;,citation_year=1972;,citation_fulltext_html_url=https://www.biodiversitylibrary.org/part/272572;,citation_issue=30;,citation_doi=10.5962/p.272572;,citation_issn=0300-9386;,citation_volume=36;,citation_language=fr-FR;,citation_journal_title=Bulletin du Muséum national d’histoire naturelle;">
+<meta name="citation_reference" content="citation_title=Guide to the marine isopod crustaceans of the Caribbean;,citation_author=Brain Frederick Kensley;,citation_author=Marilyn Schotte;,citation_publication_date=1989;,citation_cover_date=1989;,citation_year=1989;,citation_isbn=0-87474-724-4;,citation_language=en-US;">
+<meta name="citation_reference" content="citation_title=Correct Species Identification and Its Implications for Conservation Using Haploniscidae (Crustacea, Isopoda) in Icelandic Waters as a Proxy;,citation_abstract=Correct identification of species is required to assess and understand the biodiversity of an ecosystem. In the deep sea, however, this is only possible to a limited extent, as a large part of the fauna is undescribed and the identification keys for most taxa are inadequate or missing. With the progressive impact of climate change and anthropogenic activities on deep-sea ecosystems, it is imperative to define reliable methods for robust species identification. In this study, different techniques for the identification of deep-sea species are tested, including a combination of morphological, molecular (DNA barcoding, and proteomic fingerprinting), biogeographical and ecological modeling approaches. These are applied to a family of isopods, the Haploniscidae, from deep waters around Iceland. The construction of interactive identification keys based on the DELTA format (DEscription Language for TAxonomy) were a major pillar of this study, the evaluation of which was underpinned by the application of the supplementary methods. Overall, interactive keys have been very reliable in identifying species within the Haploniscidae. Especially in a deep-sea context, these types of keys could become established because they are easy to adapt and flexible enough to accommodate newly described species. Remarkably, in this study, the interactive key enabled identification of a supposedly new species within the Haploniscidae that was later verified using both molecular genetic – and proteomic methods. However, these keys are limited given that they are based on purely morphological characteristics, including where species with strong ontogenetic or sexual dimorphism occur as both genders are not always described. In this case, integrative taxonomy is the method of choice and the combination presented here has been shown to be very promising for correct identification of deep-sea isopods.;,citation_author=Karlotta Kürzel;,citation_author=Stefanie Kaiser;,citation_author=Anne-Nina Lörz;,citation_author=Sven Rossel;,citation_author=Eva Paulus;,citation_author=Janna Peters;,citation_author=Martin Schwentner;,citation_author=Pedro Martinez Arbizu;,citation_author=Charles Oliver Coleman;,citation_author=Jörundur Svavarsson;,citation_author=Saskia Brix;,citation_publication_date=2022-01;,citation_cover_date=2022-01;,citation_year=2022;,citation_fulltext_html_url=https://www.frontiersin.org/articles/10.3389/fmars.2021.795196/full;,citation_doi=10.3389/fmars.2021.795196;,citation_issn=2296-7745;,citation_volume=8;,citation_language=en-US;,citation_journal_title=Front. Mar. Sci.;">
+<meta name="citation_reference" content="citation_title=Acanthocope;,citation_author=undefined Kussakin;,citation_publication_date=2003;,citation_cover_date=2003;,citation_year=2003;,citation_inbook_title=Book Section: Acanthocope;">
+<meta name="citation_reference" content="citation_title=Acanthocope mendeleevi: A new species of Munnopsidae (Crustacea, Isopoda, Asellota) from the New Caledonian Basin;,citation_author=Marina Malyutina;,citation_publication_date=1998-09;,citation_cover_date=1998-09;,citation_year=1998;,citation_issue=5;,citation_volume=24;,citation_language=en-US;,citation_journal_title=Russian Journal of Marine Biology;">
+<meta name="citation_reference" content="citation_title=A new record of species of Acanthocope Isopoda, Munnopsidae);,citation_author=Marina Malyutina;,citation_publication_date=1999-07;,citation_cover_date=1999-07;,citation_year=1999;,citation_issue=4;,citation_volume=25;,citation_journal_title=Russian Journal of Marine Biology;">
+<meta name="citation_reference" content="citation_title=Acanthocopinae (Crustacea: Isopoda: Munnopsididae) from the Southern Ocean deep sea with the description of Acanthocope eleganta sp. nov.;,citation_abstract=Acanthocope eleganta sp. nov. is described from the abyssal Southern Ocean near the Southern Ocean Peninsula. The new species differs from others in the following: a slender dorsomedial spine on the pleon anteriorly, a pair of short dorsal spines and long ventral spine on each of pereonites 5 and 6; uropods half as long as the terminal spine of the pleotelson and with a minute exopod. A. annulatus Menzies, 1962 is redescribed; A. galatheae Wolff, 1962, previously known only from the Gulf of Panama and from Angola Basin, is recorded from the northwest Weddell Sea.;,citation_author=Marina Malyutina;,citation_author=Angelika Brandt;,citation_publication_date=2004-06;,citation_cover_date=2004-06;,citation_year=2004;,citation_fulltext_html_url=https://mapress.com/zt/article/view/zootaxa.550.1.1;,citation_issue=1;,citation_doi=10.11646/zootaxa.550.1.1;,citation_issn=1175-5334, 1175-5326;,citation_volume=550;,citation_language=en-US;,citation_journal_title=Zootaxa;">
+<meta name="citation_reference" content="citation_title=Diversity and distribution of the deep-sea Atlantic Acanthocope (Crustacea, Isopoda, Munnopsidae), with description of two new species;,citation_abstract=The present paper provides data of the world-wide distribution, abundance and diversity of the rare deep-sea munnopsid genus, Acanthocope Beddard, 1885 and presents an identification key to the 18 known species of Acanthocope. Two new species, Acanthocope puertoricana sp. nov. from the tropical abyssal area near the Puerto Rico Trench and Acanthocope galaica sp. nov. from the Galicia Bank, Northeastern Atlantic are described. Additionally, Acanthocope annulatus Menzies, 1962 and Acanthocope eleganta Malyutina and Brandt, 2004 have been collected in the Puerto Rico Trench area, whereas Acanthocope galatheae Wolff, 1962 were collected along a latitudinal transect crossing the tropical abyssal North Atlantic during the Vema-TRANSIT expedition. A. puertoricana is most similar to A. carinata Chardy, 1972 from the Northwestern Atlantic and differs from the latter by: a more slender body; a broader head; a more slender and shorter lateral projections of the pleotelson; the presence of ventral spines on natasome; and a longer uropod. A. galaica sp. nov. is most similar to A. spinicauda Beddard, 1885 and differs from the latter by having a more elongate pleotelson with almost straight lateral margins between lateral spines, whereas the margins are more convex in A. spinicauda. Pereopods 5 and 6 of A. galaica have broader carpi than in A. spinicauda.;,citation_author=Marina V. Malyutina;,citation_author=Inmaculada Frutos;,citation_author=Angelika Brandt;,citation_publication_date=2018-02;,citation_cover_date=2018-02;,citation_year=2018;,citation_fulltext_html_url=https://linkinghub.elsevier.com/retrieve/pii/S0967064517300280;,citation_doi=10.1016/j.dsr2.2017.11.003;,citation_issn=09670645;,citation_volume=148;,citation_language=en-US;,citation_journal_title=Deep Sea Research Part II: Topical Studies in Oceanography;">
+<meta name="citation_reference" content="citation_title=New bathyal Isopoda from the Caribbean with observations on their nutrition;,citation_author=Robert J. Menzies;,citation_publication_date=1956;,citation_cover_date=1956;,citation_year=1956;,citation_journal_title=Museum of comparative zoology;,citation_series_title=63th series;">
+<meta name="citation_reference" content="citation_title=The Isopods of Abyssal Depth in the Atlantic Ocean;,citation_author=Robert J. Menzies;,citation_publication_date=1962;,citation_cover_date=1962;,citation_year=1962;">
+<meta name="citation_reference" content="citation_title=Acanthocope pentacornis n.sp. From the Deep Sea of the Gulf of Aden (Crustaceae: Isopoda: Munnopsidae);,citation_author=Hans-Georg Mueller;,citation_publication_date=1989-10;,citation_cover_date=1989-10;,citation_year=1989;,citation_volume=20;,citation_journal_title=Senckenbergiana Maritima;">
+<meta name="citation_reference" content="citation_title=Relationships within the Munnopsidae (Crustacea, Isopoda, Asellota) based on three genes;,citation_abstract=The Munnopsidae are a diverse group of asellote isopods that are an important component of deep-sea fauna. Morphologically-based phylogenetic inference attempts have proven to be of limited use due to the ecological and morphological diversity within the clade. Monophyly of the family is well-established but relationships within the group remain unresolved. This project is the first molecularly-based effort focused specifically on resolving phylogenetic relationships within the Munnopsidae. Partial 28S and COI and complete 18S genes were sequenced for 28 asellotes, 15 additional taxa were included from which only one or two of the three target sequences could be obtained, and 18S sequences for five additional taxa were available from GenBank. Sequences were analysed both as individual genes and in combination using Bayesian and maximum parsimony approaches. Each gene provided a phylogenetic signal that could be identified in the combined analyses, with 18S analyses providing the most resolution of phylogenetic relationships. The available representatives of subfamilies Munnopsinae and Ilyarachninae were monophyletic, as was the genus Munneurycope. Relationships within the subfamily Munnopsinae were well-resolved by thorough taxon sampling, several new species were placed, and the need for taxonomic revision of Munnopsis/Munnopsoides was supported. These analyses supported putative Eurycope paraphyly and emphasized the need for careful revision of this highly variable genus. Tytthocope was sister to Munnopsurus . Syneurycope was suggested as the sister group to the ilyarachnines. Combined analyses provided increased support for clades suggested in at least two individual gene analyses and for clades not strongly contradicted by individual analyses. Further work is required to fully resolve the munnopsid phylogeny and should consist of increased taxon sampling for the complete 18S sequence and possibly identification of at least one slowly evolving, nuclear protein-coding gene to resolve the basal polytomy and enable placement of the root.;,citation_author=Karen J. Osborn;,citation_publication_date=2009-11;,citation_cover_date=2009-11;,citation_year=2009;,citation_fulltext_html_url=https://onlinelibrary.wiley.com/doi/10.1111/j.1463-6409.2009.00394.x;,citation_issue=6;,citation_doi=10.1111/j.1463-6409.2009.00394.x;,citation_issn=0300-3256, 1463-6409;,citation_volume=38;,citation_language=en-US;,citation_journal_title=Zoologica Scripta;">
+<meta name="citation_reference" content="citation_title=Assessing the efficiency of multiple sequence alignment programs;,citation_abstract=Background: Multiple sequence alignment (MSA) is an extremely useful tool for molecular and evolutionary biology and there are several programs and algorithms available for this purpose. Although previous studies have compared the alignment accuracy of different MSA programs, their computational time and memory usage have not been systematically evaluated. Given the unprecedented amount of data produced by next generation deep sequencing platforms, and increasing demand for large-scale data analysis, it is imperative to optimize the application of software. Therefore, a balance between alignment accuracy and computational cost has become a critical indicator of the most suitable MSA program. We compared both accuracy and cost of nine popular MSA programs, namely CLUSTALW, CLUSTAL OMEGA, DIALIGN-TX, MAFFT, MUSCLE, POA, Probalign, Probcons and T-Coffee, against the benchmark alignment dataset BAliBASE and discuss the relevance of some implementations embedded in each program’s algorithm. Accuracy of alignment was calculated with the two standard scoring functions provided by BAliBASE, the sum-of-pairs and total-column scores, and computational costs were determined by collecting peak memory usage and time of execution. Results: Our results indicate that mostly the consistency-based programs Probcons, T-Coffee, Probalign and MAFFT outperformed the other programs in accuracy. Whenever sequences with large N/C terminal extensions were present in the BAliBASE suite, Probalign, MAFFT and also CLUSTAL OMEGA outperformed Probcons and T-Coffee. The drawback of these programs is that they are more memory-greedy and slower than POA, CLUSTALW, DIALIGN-TX, and MUSCLE. CLUSTALW and MUSCLE were the fastest programs, being CLUSTALW the least RAM memory demanding program. Conclusions: Based on the results presented herein, all four programs Probcons, T-Coffee, Probalign and MAFFT are well recommended for better accuracy of multiple sequence alignments. T-Coffee and recent versions of MAFFT can deliver faster and reliable alignments, which are specially suited for larger datasets than those encountered in the BAliBASE suite, if multi-core computers are available. In fact, parallelization of alignments for multi-core computers should probably be addressed by more programs in a near future, which will certainly improve performance significantly.;,citation_author=Fabiano Sviatopolk-Mirsky Pais;,citation_author=Patrícia De Cássia Ruy;,citation_author=Guilherme Oliveira;,citation_author=Roney Santos Coimbra;,citation_publication_date=2014-12;,citation_cover_date=2014-12;,citation_year=2014;,citation_fulltext_html_url=https://almob.biomedcentral.com/articles/10.1186/1748-7188-9-4;,citation_issue=1;,citation_doi=10.1186/1748-7188-9-4;,citation_issn=1748-7188;,citation_volume=9;,citation_language=en-US;,citation_journal_title=Algorithms Mol Biol;">
+<meta name="citation_reference" content="citation_title=Recent speciation and hybridization in Icelandic deep-sea isopods: An integrative approach using genomics and proteomics;,citation_abstract=The crustacean marine isopod species Haploniscus bicuspis (Sars, 1877) shows circumIcelandic distribution in a wide range of environmental conditions and along wellknown geographic barriers, such as the Greenland-Iceland-Faroe (GIF) Ridge. We wanted to explore population genetics, phylogeography and cryptic speciation as well as investigate whether previously described, but unaccepted subspecies have any merit. Using the same set of specimens, we combined mitochondrial COI sequences, thousands of nuclear loci (ddRAD), and proteomic profiles, plus selected morphological characters using confocal laser scanning microscopy (CLSM). Five divergent genetic lineages were identified by COI and ddRAD, two south and three north of the GIF Ridge. Assignment of populations to the three northern lineages varied and detailed analyses revealed hybridization and gene flow between them, suggesting a single northern species with a complex phylogeographic history. No apparent hybridization was observed among lineages south of the GIF Ridge, inferring the existence of two more species. Differences in proteomic profiles between the three putative species were minimal, implying an ongoing or recent speciation process. Population differentiation was high, even among closely associated populations, and higher in m-i tochondrial COI than nuclear ddRAD loci. Gene flow is apparently male- biased, leading to hybrid zones and instances of complete exchange of the local nuclear genome through immigrating males. This study did not confirm the existence of subspecies defined by male characters, which probably instead refer to different male developmental stages.;,citation_author=Eva Paulus;,citation_author=Saskia Brix;,citation_author=Annabelle Siebert;,citation_author=Pedro Martínez Arbizu;,citation_author=Sven Rossel;,citation_author=Janna Peters;,citation_author=Jörundur Svavarsson;,citation_author=Martin Schwentner;,citation_publication_date=2022-01;,citation_cover_date=2022-01;,citation_year=2022;,citation_fulltext_html_url=https://onlinelibrary.wiley.com/doi/10.1111/mec.16234;,citation_issue=1;,citation_doi=10.1111/mec.16234;,citation_issn=0962-1083, 1365-294X;,citation_volume=31;,citation_language=en-US;,citation_journal_title=Molecular Ecology;">
+<meta name="citation_reference" content="citation_title=Multiple origins of deep-sea Asellota (Crustacea: Isopoda) from shallow waters revealed by molecular data;,citation_abstract=The Asellota are a highly variable group of Isopoda with many species in freshwater and marine shallow-water environments. However, in the deep sea, they show their most impressive radiation with a broad range of astonishing morphological adaptations and bizarre body forms. Nevertheless, the evolution and phylogeny of the deep-sea Asellota are poorly known because of difficulties in scoring morphological characters. In this study, the molecular phylogeny of the Asellota is evaluated for 15 marine shallow-water species and 101 deep-sea species, using complete 18S and partial 28S rDNA gene sequences. Our molecular data support the monophyly of most deep-sea families and give evidence for a multiple colonization of the deep sea by at least four major lineages of asellote isopods. According to our molecular data, one of these lineages indicates an impressive radiation in the deep sea. Furthermore, the present study rejects the monophyly of the family Janiridae, a group of plesiomorphic shallow-water Asellota, and several shallow-water and deep-sea genera ( Acanthaspidia , Ianthopsis , Haploniscus , Echinozone , Eurycope , Munnopsurus and Syneurycope ).;,citation_author=Michael J Raupach;,citation_author=Christoph Mayer;,citation_author=Marina Malyutina;,citation_author=Johann-Wolfgang Wägele;,citation_publication_date=2009-03;,citation_cover_date=2009-03;,citation_year=2009;,citation_fulltext_html_url=https://royalsocietypublishing.org/doi/10.1098/rspb.2008.1063;,citation_issue=1658;,citation_doi=10.1098/rspb.2008.1063;,citation_issn=0962-8452, 1471-2954;,citation_volume=276;,citation_language=en-US;,citation_journal_title=Proc. R. Soc. B.;">
+<meta name="citation_reference" content="citation_title=Caught in the act: An abyssal isopod collected while feeding on Komokiaceae;,citation_author=Torben Riehl;,citation_author=Simon Bober;,citation_author=Ivan Voltski;,citation_author=Marina V. Malyutina;,citation_author=Angelika Brandt;,citation_publication_date=2018-03;,citation_cover_date=2018-03;,citation_year=2018;,citation_fulltext_html_url=http://link.springer.com/10.1007/s12526-016-0606-y;,citation_issue=1;,citation_doi=10.1007/s12526-016-0606-y;,citation_issn=1867-1616, 1867-1624;,citation_volume=48;,citation_language=en-US;,citation_journal_title=Mar Biodiv;">
+<meta name="citation_reference" content="citation_title=On abyssal isopods (Crustaceae: Isopoda: Asellota) from the Angola Basin: Eurycope tumidicarpus n. Sp. And redescription of Acanthocope galatheae Wolff, 1962;,citation_author=Cornelia Schmid;,citation_author=Nils Brenke;,citation_author=Johann Wolfgang Wägele;,citation_publication_date=2002;,citation_cover_date=2002;,citation_year=2002;,citation_issue=1;,citation_volume=2;,citation_journal_title=Organisms Diversity &amp;amp;amp; Evolution;">
+<meta name="citation_reference" content="citation_title=Crustaceamorpha: Appendages;,citation_author=UC Museum of Paleontology;,citation_publication_date=2002-05;,citation_cover_date=2002-05;,citation_year=2002;,citation_fulltext_html_url=https://ucmp.berkeley.edu/arthropoda/crustacea/appendages.html;,citation_journal_title=Crustaceamorpha: Appendages;">
+<meta name="citation_reference" content="citation_title=Searching factors causing implausible non-monophyly: Ssu rDNA phylogeny of Isopoda Asellota (Crustacea: Peracarida) and faster evolution in marine than in freshwater habitats;,citation_abstract=This contribution addresses two questions: which alignment patterns are causing non-monophyly of the Asellota and what is the phylogenetic history of this group? The Asellota are small benthic crustaceans occurring in most aquatic habitats. In viewof the complex morphological apomorphies known for this group, monophyly of the Asellota has never been questioned. Using ssu rDNA sequences of outgroups and of 16 asellote species from fresh water, littoral marine habitats and from deep-sea localities, the early divergence between the lineages in fresh water and in the ocean, and the monophyly of the deep-sea taxon Munnopsidae are confirmed. Relative substitution rates of freshwater species are much lower than in other isopod species, rates being highest in some littoral marine genera (Carpias and Jaera). Furthermore, more sequence sites are variable in marine than in freshwater species, the latter conserve outgroup character states. Monophyly is recovered with parsimony methods, but not with distance and maximum likelihood analyses, which tear apart the marine from the freshwater species. The information content of alignments was studied with spectra of supporting positions. The scarcity of signal ( $\frac{1}{4}$ apomorphic nucleotides) supporting monophyly of the Asellota is attributed to a short stem-line of this group or to erosion of signal in fast evolving marine species. Parametric boostrapping in combination with spectra indicates that a tree model cannot explain the data and that monophyly of the Asellota should not be rejected even though many topologies do not recover this taxon.;,citation_author=Johann-Wolfgang Wägele;,citation_author=Barbara Holland;,citation_author=Hermann Dreyer;,citation_author=Beate Hackethal;,citation_publication_date=2003-09;,citation_cover_date=2003-09;,citation_year=2003;,citation_fulltext_html_url=https://linkinghub.elsevier.com/retrieve/pii/S1055790303000538;,citation_issue=3;,citation_doi=10.1016/S1055-7903(03)00053-8;,citation_issn=10557903;,citation_volume=28;,citation_language=en-US;,citation_journal_title=Molecular Phylogenetics and Evolution;">
+<meta name="citation_reference" content="citation_title=Acanthocope galatheae;,citation_author=undefined Wolff;,citation_publication_date=1962;,citation_cover_date=1962;,citation_year=1962;">
+<meta name="citation_reference" content="citation_title=Benthic carbon fixation and cycling in diffuse hydrothermal and background sediments in the Bransfield Strait, Antarctica;,citation_abstract=Abstract. Sedimented hydrothermal vents are likely to be widespread compared to hard substrate hot vents. They host chemosynthetic microbial communities which fix inorganic carbon (C) at the seafloor, as well as a wide range of macroinfauna, including vent-obligate and background non-vent taxa. There are no previous direct observations of carbon cycling at a sedimented hydrothermal vent. We conducted 13C isotope tracing experiments at three sedimented sites in the Bransfield Strait, Antarctica, which showed different degrees of hydrothermalism. Two experimental treatments were applied, with 13C added as either algal detritus (photosynthetic C), or as bicarbonate (substrate for benthic C fixation). Algal 13C was taken up by both bacteria and metazoan macrofaunal, but its dominant fate was respiration, as observed at deeper and more food-limited sites elsewhere. Rates of 13C uptake and respiration suggested that the diffuse hydrothermal site was not the hot spot of benthic C cycling that we hypothesised it would be. Fixation of inorganic C into bacterial biomass was observed at all sites, and was measurable at two out of three sites. At all sites, newly fixed C was transferred to metazoan macrofauna. Fixation rates were relatively low compared with similar experiments elsewhere; thus, C fixed at the seafloor was a minor C source for the benthic ecosystem. However, as the greatest amount of benthic C fixation occurred at the “Off Vent” (non-hydrothermal) site (0.0770.034 mg C m-2 fixed during 60 h), we suggest that benthic fixation of inorganic C is more widespread than previously thought, and warrants further study.;,citation_author=Clare Woulds;,citation_author=James B. Bell;,citation_author=Adrian G. Glover;,citation_author=Steven Bouillon;,citation_author=Louise S. Brown;,citation_publication_date=2020-01;,citation_cover_date=2020-01;,citation_year=2020;,citation_fulltext_html_url=https://bg.copernicus.org/articles/17/1/2020/;,citation_issue=1;,citation_doi=10.5194/bg-17-1-2020;,citation_issn=1726-4189;,citation_volume=17;,citation_language=en-US;,citation_journal_title=Biogeosciences;">
+<meta name="citation_reference" content="citation_title=geneHapR: An R package for gene haplotypic statistics and visualization;,citation_abstract=Background: Together with application of next-generation sequencing technologies and increased accumulation of genomic variation data in different organism species, an opportunity for effectively identification of superior alleles of functional genes to facilitate marker-assisted selection is emerging, and the clarification of haplotypes of functional genes is becoming an essential target in recent study works. Results: In this paper, we describe an R package “geneHapR” developed for haplotypes identification, statistics and visualization analysis of candidate genes. This package could integrate genotype data, genomic annotating information and phenotypic variation data to clarify genotype variations, evolutionary-ship, and morphological effects among haplotypes through variants visualization, network construction and phenotypic comparison. “geneHapR” also provides functions for Linkage Disequilibrium block analysis and visualizing of haplotypes geo-distribution. Conclusions: The R package “geneHapR” provided an easy-to-use tool for haplotype identification, statistic and visualization for candidate gene and will provide useful clues for gene functional dissection and molecular-assistant pyramiding of beneficial alleles of functional locus in future breeding programs.;,citation_author=Renliang Zhang;,citation_author=Guanqing Jia;,citation_author=Xianmin Diao;,citation_publication_date=2023-05;,citation_cover_date=2023-05;,citation_year=2023;,citation_fulltext_html_url=https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-023-05318-9;,citation_issue=1;,citation_doi=10.1186/s12859-023-05318-9;,citation_issn=1471-2105;,citation_volume=24;,citation_language=en-US;,citation_journal_title=BMC Bioinformatics;">
+</head>
+
+<body>
+
+<header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <div class="quarto-title-block"><div><h1 class="title">Integrative Taxonomy of Northern Atlantic <em>Acanthocope</em></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i></button></div></div>
+          </div>
+
+    
+    <div class="quarto-title-meta-container">
+      <div class="quarto-title-meta-column-start">
+            <div class="quarto-title-meta-author">
+          <div class="quarto-title-meta-heading">Authors</div>
+          <div class="quarto-title-meta-heading">Affiliations</div>
+          
+                <div class="quarto-title-meta-contents">
+            <p class="author">Zhehao Hu <a href="mailto:hu_zhehao@hotmail.com" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        University of Hamburg
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Jenny Neuhaus <a href="mailto:jenny.neuhaus@senckenberg.de" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        Senckenberg am Meer
+                      </p>
+                  </div>
+                    </div>
+        
+        <div class="quarto-title-meta">
+
+                      
+          
+                
+              </div>
+      </div>
+      <div class="quarto-title-meta-column-end quarto-other-formats-target">
+      <div class="quarto-alternate-formats"><div class="quarto-title-meta-heading">Other Formats</div><div class="quarto-title-meta-contents"><p><a href="index.docx"><i class="bi bi-file-word"></i>MS Word (apaquarto)</a></p></div><div class="quarto-title-meta-contents"><p><a href="index.pdf"><i class="bi bi-file-pdf"></i>PDF (apaquarto)</a></p></div><div class="quarto-title-meta-contents"><p><a href="index-meca.zip" data-meca-link="true"><i class="bi bi-archive"></i>MECA Bundle</a></p></div></div></div>
+    </div>
+
+    <div>
+      <div class="abstract">
+        <div class="block-title">Abstract</div>
+        Acanthocope
+      </div>
+    </div>
+
+    <div>
+      <div class="keywords">
+        <div class="block-title">Keywords</div>
+        <p>keyword1, keyword2</p>
+      </div>
+    </div>
+
+    <div class="quarto-other-links-text-target">
+    </div>  </div>
+</header><div id="quarto-content" class="page-columns page-rows-contents page-layout-article toc-left">
+<div id="quarto-sidebar-toc-left" class="sidebar toc-left">
+  <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="2">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#setup" id="toc-setup" class="nav-link active" data-scroll-target="#setup">Setup</a></li>
+  </ul>
+<div class="quarto-alternate-notebooks"><h2>Notebooks</h2><ul><li><a href="introduction-preview.html"><i class="bi bi-journal-code"></i>Introduction</a></li></ul></div></nav>
+</div>
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+</div>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+  
+
+
+<section id="setup" class="level2">
+<h2 class="anchored" data-anchor-id="setup">Setup</h2>
+<p>something</p>
+<!-- -->
+
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+  const viewSource = window.document.getElementById('quarto-view-source') ||
+                     window.document.getElementById('quarto-code-tools-source');
+  if (viewSource) {
+    const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+    viewSource.addEventListener("click", function(e) {
+      if (sourceUrl) {
+        // rstudio viewer pane
+        if (/\bcapabilities=\b/.test(window.location)) {
+          window.open(sourceUrl);
+        } else {
+          window.location.href = sourceUrl;
+        }
+      } else {
+        const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+        modal.show();
+      }
+      return false;
+    });
+  }
+  function toggleCodeHandler(show) {
+    return function(e) {
+      const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
+      for (let i=0; i<detailsSrc.length; i++) {
+        const details = detailsSrc[i].parentElement;
+        if (show) {
+          details.open = true;
+        } else {
+          details.removeAttribute("open");
+        }
+      }
+      const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+      const fromCls = show ? "hidden" : "unhidden";
+      const toCls = show ? "unhidden" : "hidden";
+      for (let i=0; i<cellCodeDivs.length; i++) {
+        const codeDiv = cellCodeDivs[i];
+        if (codeDiv.classList.contains(fromCls)) {
+          codeDiv.classList.remove(fromCls);
+          codeDiv.classList.add(toCls);
+        } 
+      }
+      return false;
+    }
+  }
+  const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+  if (hideAllCode) {
+    hideAllCode.addEventListener("click", toggleCodeHandler(false));
+  }
+  const showAllCode = window.document.getElementById("quarto-show-all-code");
+  if (showAllCode) {
+    showAllCode.addEventListener("click", toggleCodeHandler(true));
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
+<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Integrative Taxonomy of Northern Atlantic *Acanthocope*"</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">shorttitle:</span><span class="co"> "My Paper's Title"</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="an">author:</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">  - name: Zhehao Hu</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co">    corresponding: true</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co">    # orcid: 0000-0002-8393-5316</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co">    email: "{{&lt; var email.personal &gt;}}"</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co">    affiliations:</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co">      - name: University of Hamburg</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co">        department: Department of Biology</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="co">        address: Martin-Luther-King Platz 3</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="co">        city: Hamburg</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="co">        postal-code: D-20146</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="co">  - name: Jenny Neuhaus</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="co">    # orcid: 0000-0002-8393-5316</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="co">    email: "jenny.neuhaus@senckenberg.de"</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="co">    affiliations:</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="co">      - name: Senckenberg am Meer</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="co">        department: German Centre for Marine Biodiversity Research</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="co">        address: Martin-Luther-King Platz 3</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="co">        city: Hamburg</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="co">        postal-code: D-20146</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="an">abstract:</span><span class="co"> "Acanthocope"</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="an">keywords:</span><span class="co"> [keyword1, keyword2]</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="an">author-note:</span></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="co">  disclosures:</span></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="co">    conflict of interest: The author has no conflict of interest to declare.</span></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="fu">## Setup </span></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>something</span></code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
+</div></div></div></div></div>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

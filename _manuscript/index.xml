@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving
+and Interchange DTD v1.2 20190208//EN" "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+  <front>
+    <article-meta>
+      <title-group>
+        <article-title>Integrative Taxonomy of Northern Atlantic
+<italic>Acanthocope</italic></article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" corresp="yes">
+          <name>
+            <surname>Hu</surname>
+            <given-names>Zhehao</given-names>
+          </name>
+          <string-name>Zhehao Hu</string-name>
+          <email>hu_zhehao@hotmail.com</email>
+          <xref ref-type="aff" rid="aff-1">a</xref>
+          <xref ref-type="corresp" rid="cor-1">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Neuhaus</surname>
+            <given-names>Jenny</given-names>
+          </name>
+          <string-name>Jenny Neuhaus</string-name>
+          <email>jenny.neuhaus@senckenberg.de</email>
+          <xref ref-type="aff" rid="aff-2">b</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff-1">
+        <institution content-type="dept">Department of Biology</institution>
+        <institution-wrap>
+          <institution>University of Hamburg</institution>
+        </institution-wrap>
+        <addr-line>Martin-Luther-King Platz 3</addr-line>
+        <city>Hamburg</city>
+        <postal-code>D-20146</postal-code>
+      </aff>
+      <aff id="aff-2">
+        <institution content-type="dept">German Centre for Marine Biodiversity
+Research</institution>
+        <institution-wrap>
+          <institution>Senckenberg am Meer</institution>
+        </institution-wrap>
+        <addr-line>Martin-Luther-King Platz 3</addr-line>
+        <city>Hamburg</city>
+        <postal-code>D-20146</postal-code>
+      </aff>
+      <author-notes>
+        <corresp id="cor-1">hu_zhehao@hotmail.com</corresp>
+      </author-notes>
+      <history/>
+      <abstract>
+Acanthocope
+</abstract>
+      <kwd-group kwd-group-type="author">
+        <kwd>keyword1</kwd>
+        <kwd>keyword2</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="setup">
+      <title>Setup</title>
+      <p>something</p>
+    </sec>
+  </body>
+  <back>
+</back>
+  <!-- (F2ED4C6E)[nb-1]:/Users/hu_zhehao/Desktop/zzzhehao/30-39 On-Going Project Management/32.2024 Acanthocope Project/32.2024.01 docs/32.2024.01.21 publication/2025 Hu etal/introduction.qmd -->
+</article>

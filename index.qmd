@@ -1,0 +1,35 @@
+---
+title: "Integrative Taxonomy of Northern Atlantic *Acanthocope*"
+shorttitle: "My Paper's Title"
+
+author:
+  - name: Zhehao Hu
+    corresponding: true
+    # orcid: 0000-0002-8393-5316
+    email: "{{< var email.personal >}}"
+    affiliations:
+      - name: University of Hamburg
+        department: Department of Biology
+        address: Martin-Luther-King Platz 3
+        city: Hamburg
+        postal-code: D-20146
+  - name: Jenny Neuhaus
+    # orcid: 0000-0002-8393-5316
+    email: "jenny.neuhaus@senckenberg.de"
+    affiliations:
+      - name: Senckenberg am Meer
+        department: German Centre for Marine Biodiversity Research
+        address: Martin-Luther-King Platz 3
+        city: Hamburg
+        postal-code: D-20146
+
+abstract: "Acanthocope"
+keywords: [keyword1, keyword2]
+author-note:
+  disclosures:
+    conflict of interest: The author has no conflict of interest to declare.
+---
+
+## Setup 
+
+something
