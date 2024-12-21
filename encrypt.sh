@@ -1,8 +1,13 @@
 #!/bin/bash
+
+if [ -z "${QUARTO_PROJECT_RENDER_ALL}" ]; then
+    echo "QUARTO_PROJECT_RENDER_ALL is not set. Exiting."
+    exit 0
+fi
+
 # npm install pagecrypt
 
-# Set your desired password
-PASSWORD="781969402daddd6fe75bb6f605403a35ae21a0b2"
+PASSWORD="ITACO"
 
 # Encrypt all HTML files in the _site directory
 for file in _manuscript/*.html; do

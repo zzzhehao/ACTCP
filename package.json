@@ -3,6 +3,7 @@
         "pagecrypt": "^6.1.1"
     },
     "scripts": {
-        "build": "quarto publish gh-pages"
+        "publish": "quarto publish gh-pages",
+        "render": "quarto render"
     }
 }

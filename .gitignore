@@ -1,10 +1,13 @@
-/site_libs/
+node_modules/
 
 # Quarto
 /_freeze/
 /.quarto/
 /_site/
 *_files/
+/site_libs/
+_manuscript
+_extensions
 
 # Obsidian
 .obsidian/
