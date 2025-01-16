@@ -8,8 +8,10 @@ project:
 
 manuscript:
   notebooks:
-    - notebook: introduction.qmd
+    - notebook: Introduction.qmd
       title: Introduction
+    - notebook: notebooks/genetics-protocol.md
+      title: Genetics - Protocols
 
 execute:
   freeze: true
