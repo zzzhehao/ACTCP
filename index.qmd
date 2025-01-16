@@ -24,12 +24,8 @@ author:
         postal-code: D-20146
 
 abstract: "Acanthocope"
-keywords: [keyword1, keyword2]
+keywords: [deep-sea, biogeography]
 author-note:
   disclosures:
     conflict of interest: The author has no conflict of interest to declare.
 ---
-
-## Setup 
-
-something
