@@ -4,14 +4,12 @@ project:
   post-render:
     - ./encrypt.sh
 
-# jupyter: ./env/bin/python
-
 manuscript:
   notebooks:
-    - notebook: Introduction.qmd
-      title: Introduction
-    - notebook: notebooks/genetics-protocol.md
-      title: Genetics - Protocols
+    - notebook: notebooks/10 Abstract.qmd
+      title: 10 Manuscript Abstract
+    - notebook: notebooks/20 Introduction.qmd
+      title: 20 Introduction
 
 execute:
   freeze: true
@@ -19,15 +17,6 @@ execute:
 bibliography:
   - reference.bib
 
-author:
-  - name: Zhehao Hu
-    email: "{{< var email.work >}}"
-    url: https://zzzhehao.github.io
-    affiliations:
-      - name: Department of Biology, University of Hamburg
-        city: Hamburg
-        country: Germany
-        url: https://www.biologie.uni-hamburg.de/en.html
 date-format: long
 
 format:
@@ -60,8 +49,10 @@ format:
       caption: none
       source: true
     highlight-style: atom-one-dark
+    comments:
+      hypothesis: true
   jats: default
   apaquarto-docx: default
   apaquarto-pdf: default
-
+    
 lightbox: true

@@ -1,20 +1,21 @@
 ---
-title: "Integrative Taxonomy of Northern Atlantic *Acanthocope*"
-shorttitle: "My Paper's Title"
+title: "Integrative Taxonomy of North Atlantic *Acanthocope* with description of a new species"
+shorttitle: "ACTCP"
 
 author:
   - name: Zhehao Hu
     corresponding: true
-    # orcid: 0000-0002-8393-5316
-    email: "{{< var email.personal >}}"
+    # orcid: 
+    email: "hu_zhehao@hotmail.com"
     affiliations:
       - name: University of Hamburg
         department: Department of Biology
         address: Martin-Luther-King Platz 3
         city: Hamburg
         postal-code: D-20146
+
   - name: Jenny Neuhaus
-    # orcid: 0000-0002-8393-5316
+    orcid: 0009-0000-7570-4094
     email: "jenny.neuhaus@senckenberg.de"
     affiliations:
       - name: Senckenberg am Meer
@@ -23,9 +24,29 @@ author:
         city: Hamburg
         postal-code: D-20146
 
-abstract: "Acanthocope"
-keywords: [deep-sea, biogeography]
+# abstract: "Acanthocope"
+keywords: [Integrative taxonomy, Isopoda, Deep-sea, Biogeography]
 author-note:
   disclosures:
     conflict of interest: The author has no conflict of interest to declare.
 ---
+
+## About the manuscript
+
+Latest edition is online at [https://zzzhehao.github.io/ACTCP/](https://zzzhehao.github.io/ACTCP/#ACTCPFELIS)
+
+Password required: `ACTCPFELIS`
+
+**Download**
+
+- **MS Word** (APA 7 style manuscript), **PDF** (APA 7 style manuscript) and **MECA** bundle (Computation source code included) are available under "Other Formats" in the header banner
+
+**Commenting**
+
+- Register [here (Hypothes.is)](https://hypothes.is/groups/6KpDgDmQ/actcp)
+- Use annotation to add comments, make sure to change group to ACTCP (private).
+- Or send comments, suggestion, edited MS Word file to [hu_zhehao@hotmail.com](mailto:hu_zhehao@hotmail.com)
+
+## Abstract
+
+{{< include "notebooks/10 Abstract.qmd" >}}
