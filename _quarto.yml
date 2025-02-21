@@ -1,6 +1,8 @@
 project:
   execute-dir: project
   type: manuscript
+  pre-render: 
+    - notebooks/script_drawing_listing.R
   post-render:
     - ./encrypt.sh
 
@@ -10,6 +12,8 @@ manuscript:
       title: 10 Manuscript Abstract
     - notebook: notebooks/20 Introduction.qmd
       title: 20 Introduction
+    - notebook: notebooks/51 Drawing.qmd
+      title: 51 Drawing
 
 execute:
   freeze: true
