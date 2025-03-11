@@ -4,8 +4,8 @@ project:
   pre-render: 
     - notebooks/script_drawing_listing.R
     - scripts/result-retrieval.R
-  post-render:
-    - ./encrypt.sh
+  # post-render:
+    # - ./encrypt.sh
 
 
 manuscript:
