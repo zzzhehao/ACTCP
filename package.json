@@ -5,5 +5,7 @@
     "scripts": {
         "publish": "quarto publish gh-pages",
         "render": "quarto render"
-    }
+    },
+    "name": "",
+    "version": ""
 }

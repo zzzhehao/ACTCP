@@ -1,0 +1,18 @@
+### Morpho type codes
+
+|Morphotype|Description|
+|:---|:------------|
+|**1**|*A. armata* / *A. unicornis* like|
+|**21**|*A. puertoricana* like|
+|**22**|*A. galaica* like|
+|**24**|*A. eleganta* like|
+|**25**|*Acanthocope sp.* 2|
+|**3**|*A. galatheae* / *A. muelleri* / *A. beddardi* like|
+|**30**|*A. galatheae* like|
+|**31**|*A. muelleri* like|
+|**32**|*A. beddardi* like|
+|**33**|Like 30, but posterior lateral spine on pleotelson directing side-backwards|
+|**34**|Like 32, but posterior lateral spine on pleotelson directing forwards|
+|**35**|Like 32, but dorsomedial spine on P7 comparable as P5|
+|**5**|Indet.|
+|**6**|Other genus|

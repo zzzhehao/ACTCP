@@ -47,6 +47,39 @@ Password required: `ACTCPFELIS`
 - Use annotation to add comments, make sure to change group to ACTCP (private).
 - Or send comments, suggestion, edited MS Word file to [hu_zhehao@hotmail.com](mailto:hu_zhehao@hotmail.com)
 
+## Whiteboard
+
+### 03-07 | 18S and TCS Abstract
+
+- A quick preview to the 18S phylogeny: [genetic result](/notebooks/42%20Result%20-%20Genetics.qmd)
+- Abstract for TCS Meeting Paris: [TCS Abstract](/notebooks/11%20TCS-Abstract.qmd)
+- All drawing scans are [here](/notebooks/51%20Drawing.qmd)
+
+### 02-28 | Loan request ZMH (Pending)
+
+1. **Type materials**
+
+- *A. puertoricana*: ZMH K–46195 (Holotype), ZMH K–46196, ZMH K–46198 (Puerto Rico Trench)
+- *A. eleganta*: ZMH K–40716 (Holotype), ZMH K–40717, ZMH K–40718. (Weddell Sea)
+
+2. **ZMH K–46200**: *A. eleganta*
+
+*A. eleganta* morphologically identified by @malyutina2018, found at the same station as *A. puertoricana* (Puerto Rico Trench). A big support that *A. eleganta* and *A. puertoricana* are the same species if we can pull genetics and proteomics from them.
+
+3. **ZMH K–46199**: *A. annulatus*
+
+::: {.callout-note}
+
+@malyutina2018:
+
+Acanthocope annulatus Menzies, 1962 (Fig. 16)  
+
+Acanthocope annulatus (Menzies, 1962: 155, Fig. 44 B, C; Malyutina and Brandt, 2004: 11, Figs. 6–10.  Material examined: 1 male (5.9 mm TL), ZMH K–46199, Puerto Rico Trench abyssal area, RV Sonne, Vema-TRANSIT cruise, 25 January 2015, C-EBS, station 14-1, 19°1.63′N 67°9.73′W, 4552‒4552 m depth, supranet, bottom temperature: 2.25 °C, bottom O2: 261.13 μM, bottom current: 5.25 cm/s. 
+
+Remarks: The only specimen of the species, found at the same station as A. puertoricana sp. nov., was identified as it has all described characters of the Acanthocope annulatus Menzies, 1962. This new record is located at more than 10000 km far away from the type locality in the southeastern Atlantic (SW of Cape Town). Future sampling in the Atlantic and genetic investigations might shed some light on the true distribution of this species.
+
+:::
+
 ## Abstract
 
 {{< include "notebooks/10 Abstract.qmd" >}}

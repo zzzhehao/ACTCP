@@ -3,15 +3,21 @@ project:
   type: manuscript
   pre-render: 
     - notebooks/script_drawing_listing.R
+    - scripts/result-retrieval.R
   post-render:
     - ./encrypt.sh
+
 
 manuscript:
   notebooks:
     - notebook: notebooks/10 Abstract.qmd
       title: 10 Manuscript Abstract
+    - notebook: notebooks/11 TCS-Abstract.qmd
+      title: 11 TCS Abstract
     - notebook: notebooks/20 Introduction.qmd
       title: 20 Introduction
+    - notebook: notebooks/42 Result - Genetics.qmd
+      title: 42 Result - Genetics
     - notebook: notebooks/51 Drawing.qmd
       title: 51 Drawing
 
@@ -28,20 +34,20 @@ format:
     theme:
       light:
         [
-          ../../../theme/global-setting.scss,
-          ../../../theme/style.scss,
-          ../../../theme/custom-nav.scss,
-          ../../../theme/callouts.scss,
-          ../../../theme/sort-ui.scss,
+          theme/global-setting.scss,
+          theme/style.scss,
+          theme/custom-nav.scss,
+          theme/callouts.scss,
+          theme/sort-ui.scss,
           manuscript.scss,
         ]
       dark:
         [
-          ../../../theme/global-setting.scss,
-          ../../../theme/style-dark.scss,
-          ../../../theme/custom-nav-dark.scss,
-          ../../../theme/callouts-dark.scss,
-          ../../../theme/sort-ui-dark.scss,
+          theme/global-setting.scss,
+          theme/style-dark.scss,
+          theme/custom-nav-dark.scss,
+          theme/callouts-dark.scss,
+          theme/sort-ui-dark.scss,
           manuscript.scss,
         ]
     toc: true
