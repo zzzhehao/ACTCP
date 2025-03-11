@@ -7,3 +7,5 @@ images <- list.files(path = folder, pattern = "\\.jpeg$", full.names = FALSE, re
 md <- paste0(paste('![', images, '](/', folder, '/', images, ')', sep = ''), sep = "\n\n")
 
 write(md, file = 'notebooks/51 Drawing.qmd', ncolumns = 1, sep = "")
+
+#

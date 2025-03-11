@@ -13,22 +13,22 @@
 ![Holotype_male_A1(L)_basis.jpeg](/notebooks/description_drawing/Holotype_male_A1(L)_basis.jpeg)
 
 
-![Holotype_male_A2(L).jpeg](/notebooks/description_drawing/Holotype_male_A2(L).jpeg)
-
-
 ![Holotype_male_A2(L)_Article4.jpeg](/notebooks/description_drawing/Holotype_male_A2(L)_Article4.jpeg)
 
 
 ![Holotype_male_A2(L)_Article5.jpeg](/notebooks/description_drawing/Holotype_male_A2(L)_Article5.jpeg)
 
 
+![Holotype_male_A2(L).jpeg](/notebooks/description_drawing/Holotype_male_A2(L).jpeg)
+
+
 ![Holotype_male_Habitus_Dorsal.jpeg](/notebooks/description_drawing/Holotype_male_Habitus_Dorsal.jpeg)
 
 
-![Holotype_male_Habitus_Posterior_Dorsal.jpeg](/notebooks/description_drawing/Holotype_male_Habitus_Posterior_Dorsal.jpeg)
-
-
 ![Holotype_male_Habitus_lateral.jpeg](/notebooks/description_drawing/Holotype_male_Habitus_lateral.jpeg)
+
+
+![Holotype_male_Habitus_Posterior_Dorsal.jpeg](/notebooks/description_drawing/Holotype_male_Habitus_Posterior_Dorsal.jpeg)
 
 
 ![Holotype_male_Head_ventral.jpeg](/notebooks/description_drawing/Holotype_male_Head_ventral.jpeg)
@@ -97,13 +97,16 @@
 ![Holotype_male_Pleotelson_ventral.jpeg](/notebooks/description_drawing/Holotype_male_Pleotelson_ventral.jpeg)
 
 
-![Holotype_male_Plp1+2_Perculum_ventral_whole.jpeg](/notebooks/description_drawing/Holotype_male_Plp1+2_Perculum_ventral_whole.jpeg)
-
-
 ![Holotype_male_Plp1_lateral.jpeg](/notebooks/description_drawing/Holotype_male_Plp1_lateral.jpeg)
 
 
 ![Holotype_male_Plp1_ventral_whole.jpeg](/notebooks/description_drawing/Holotype_male_Plp1_ventral_whole.jpeg)
+
+
+![Holotype_male_Plp1+2_Perculum_ventral_whole.jpeg](/notebooks/description_drawing/Holotype_male_Plp1+2_Perculum_ventral_whole.jpeg)
+
+
+![Holotype_male_Plp2_detail_1.jpeg](/notebooks/description_drawing/Holotype_male_Plp2_detail_1.jpeg)
 
 
 ![Holotype_male_Plp2(L)_flipped_details_1.jpeg](/notebooks/description_drawing/Holotype_male_Plp2(L)_flipped_details_1.jpeg)
@@ -116,9 +119,6 @@
 
 
 ![Holotype_male_Plp2(L)_whole.jpeg](/notebooks/description_drawing/Holotype_male_Plp2(L)_whole.jpeg)
-
-
-![Holotype_male_Plp2_detail_1.jpeg](/notebooks/description_drawing/Holotype_male_Plp2_detail_1.jpeg)
 
 
 ![Holotype_male_Plp3(L).jpeg](/notebooks/description_drawing/Holotype_male_Plp3(L).jpeg)
