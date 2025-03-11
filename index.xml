@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving
+and Interchange DTD v1.2 20190208//EN" "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+  <front>
+    <article-meta>
+      <title-group>
+        <article-title>Integrative Taxonomy of North Atlantic
+<italic>Acanthocope</italic> with description of a new
+species</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" corresp="yes">
+          <name>
+            <surname>Hu</surname>
+            <given-names>Zhehao</given-names>
+          </name>
+          <string-name>Zhehao Hu</string-name>
+          <email>hu_zhehao@hotmail.com</email>
+          <xref ref-type="aff" rid="aff-1">a</xref>
+          <xref ref-type="corresp" rid="cor-1">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">0009-0000-7570-4094</contrib-id>
+          <name>
+            <surname>Neuhaus</surname>
+            <given-names>Jenny</given-names>
+          </name>
+          <string-name>Jenny Neuhaus</string-name>
+          <email>jenny.neuhaus@senckenberg.de</email>
+          <xref ref-type="aff" rid="aff-2">b</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff-1">
+        <institution content-type="dept">Department of Biology</institution>
+        <institution-wrap>
+          <institution>University of Hamburg</institution>
+        </institution-wrap>
+        <addr-line>Martin-Luther-King Platz 3</addr-line>
+        <city>Hamburg</city>
+        <postal-code>D-20146</postal-code>
+      </aff>
+      <aff id="aff-2">
+        <institution content-type="dept">German Centre for Marine Biodiversity
+Research</institution>
+        <institution-wrap>
+          <institution>Senckenberg am Meer</institution>
+        </institution-wrap>
+        <addr-line>Martin-Luther-King Platz 3</addr-line>
+        <city>Hamburg</city>
+        <postal-code>D-20146</postal-code>
+      </aff>
+      <author-notes>
+        <corresp id="cor-1">hu_zhehao@hotmail.com</corresp>
+      </author-notes>
+      <history/>
+      <kwd-group kwd-group-type="author">
+        <kwd>Integrative taxonomy</kwd>
+        <kwd>Isopoda</kwd>
+        <kwd>Deep-sea</kwd>
+        <kwd>Biogeography</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="about-the-manuscript">
+      <title>About the manuscript</title>
+      <p>Latest edition is online at
+  <ext-link ext-link-type="uri" xlink:href="https://zzzhehao.github.io/ACTCP/#ACTCPFELIS">https://zzzhehao.github.io/ACTCP/</ext-link></p>
+      <p>Password required: <monospace>ACTCPFELIS</monospace></p>
+      <p>
+        <bold>Download</bold>
+      </p>
+      <list list-type="bullet">
+        <list-item>
+          <p><bold>MS Word</bold> (APA 7 style manuscript), <bold>PDF</bold>
+      (APA 7 style manuscript) and <bold>MECA</bold> bundle (Computation
+      source code included) are available under “Other Formats” in the
+      header banner</p>
+        </list-item>
+      </list>
+      <p>
+        <bold>Commenting</bold>
+      </p>
+      <list list-type="bullet">
+        <list-item>
+          <p>Register
+      <ext-link ext-link-type="uri" xlink:href="https://hypothes.is/groups/6KpDgDmQ/actcp">here
+      (Hypothes.is)</ext-link></p>
+        </list-item>
+        <list-item>
+          <p>Use annotation to add comments, make sure to change group to
+      ACTCP (private).</p>
+        </list-item>
+        <list-item>
+          <p>Or send comments, suggestion, edited MS Word file to
+      <email>hu_zhehao@hotmail.com</email></p>
+        </list-item>
+      </list>
+    </sec>
+    <sec id="whiteboard">
+      <title>Whiteboard</title>
+      <sec id="s-and-tcs-abstract">
+        <title>03-07 | 18S and TCS Abstract</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>A quick preview to the 18S phylogeny:
+        <ext-link ext-link-type="uri" xlink:href="./notebooks/42%20Result%20-%20Genetics.qmd">genetic
+        result</ext-link></p>
+          </list-item>
+          <list-item>
+            <p>Abstract for TCS Meeting Paris:
+        <ext-link ext-link-type="uri" xlink:href="./notebooks/11%20TCS-Abstract.qmd">TCS
+        Abstract</ext-link></p>
+          </list-item>
+          <list-item>
+            <p>All drawing scans are
+        <ext-link ext-link-type="uri" xlink:href="./notebooks/51%20Drawing.qmd">here</ext-link></p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="loan-request-zmh-pending">
+        <title>02-28 | Loan request ZMH (Pending)</title>
+        <list list-type="order">
+          <list-item>
+            <p>
+              <bold>Type materials</bold>
+            </p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p><italic>A. puertoricana</italic>: ZMH K–46195 (Holotype), ZMH
+        K–46196, ZMH K–46198 (Puerto Rico Trench)</p>
+          </list-item>
+          <list-item>
+            <p><italic>A. eleganta</italic>: ZMH K–40716 (Holotype), ZMH
+        K–40717, ZMH K–40718. (Weddell Sea)</p>
+          </list-item>
+        </list>
+        <list list-type="order">
+          <list-item>
+            <label>2.</label>
+            <p><bold>ZMH K–46200</bold>: <italic>A. eleganta</italic></p>
+          </list-item>
+        </list>
+        <p><italic>A. eleganta</italic> morphologically identified by
+    Malyutina, Frutos, and Brandt
+    (<xref alt="2018" rid="ref-malyutina2018" ref-type="bibr">2018</xref>),
+    found at the same station as <italic>A. puertoricana</italic>
+    (Puerto Rico Trench). A big support that <italic>A.
+    eleganta</italic> and <italic>A. puertoricana</italic> are the same
+    species if we can pull genetics and proteomics from them.</p>
+        <list list-type="order">
+          <list-item>
+            <label>3.</label>
+            <p><bold>ZMH K–46199</bold>: <italic>A. annulatus</italic></p>
+          </list-item>
+        </list>
+        <boxed-text>
+          <p>
+            <bold>Note</bold>
+          </p>
+          <p>Malyutina, Frutos, and Brandt
+    (<xref alt="2018" rid="ref-malyutina2018" ref-type="bibr">2018</xref>):</p>
+          <p>Acanthocope annulatus Menzies, 1962 (Fig. 16)</p>
+          <p>Acanthocope annulatus (Menzies, 1962: 155, Fig. 44 B, C;
+    Malyutina and Brandt, 2004: 11, Figs. 6–10. Material examined: 1
+    male (5.9 mm TL), ZMH K–46199, Puerto Rico Trench abyssal area, RV
+    Sonne, Vema-TRANSIT cruise, 25 January 2015, C-EBS, station 14-1,
+    19°1.63′N 67°9.73′W, 4552‒4552 m depth, supranet, bottom
+    temperature: 2.25 °C, bottom O2: 261.13 μM, bottom current: 5.25
+    cm/s.</p>
+          <p>Remarks: The only specimen of the species, found at the same
+    station as A. puertoricana sp. nov., was identified as it has all
+    described characters of the Acanthocope annulatus Menzies, 1962.
+    This new record is located at more than 10000 km far away from the
+    type locality in the southeastern Atlantic (SW of Cape Town). Future
+    sampling in the Atlantic and genetic investigations might shed some
+    light on the true distribution of this species.</p>
+        </boxed-text>
+      </sec>
+    </sec>
+    <sec id="abstract">
+      <title>Abstract</title>
+      <p>Science still struggles with reliable taxonomy that forms the
+  foundation for many subsequent studies on marine ecosystems. A case
+  study with integrative approach reports first phylogenetic
+  understanding of the genus <italic>Acanthocope</italic> (Isopoda:
+  Munnopsidae) as well as its biogeography in the North Atlantic, in
+  addition with the description of a new species.</p>
+      <p>(… more with results: Hybridization of Morphogroup 2? Confirm of
+  monophyly? etc.)</p>
+      <p>(… what impact does this have? “Contributing to current
+  understanding of evolution pattern of Munnopsidae”??)</p>
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <title/>
+      <ref id="ref-malyutina2018">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Malyutina</surname>
+              <given-names>Marina V.</given-names>
+            </name>
+            <name>
+              <surname>Frutos</surname>
+              <given-names>Inmaculada</given-names>
+            </name>
+            <name>
+              <surname>Brandt</surname>
+              <given-names>Angelika</given-names>
+            </name>
+          </person-group>
+          <article-title>Diversity and distribution of the deep-sea Atlantic Acanthocope (Crustacea, Isopoda, Munnopsidae), with description of two new species</article-title>
+          <source>Deep Sea Research Part II: Topical Studies in Oceanography</source>
+          <year iso-8601-date="2018-02">2018</year>
+          <month>02</month>
+          <date-in-citation content-type="access-date">
+            <year iso-8601-date="2024-12-14">2024</year>
+            <month>12</month>
+            <day>14</day>
+          </date-in-citation>
+          <volume>148</volume>
+          <issn>09670645</issn>
+          <uri>https://linkinghub.elsevier.com/retrieve/pii/S0967064517300280</uri>
+          <pub-id pub-id-type="doi">10.1016/j.dsr2.2017.11.003</pub-id>
+          <fpage>130</fpage>
+          <lpage>150</lpage>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <sub-article article-type="notebook" id="nb-2-nb-1">
+    <front-stub>
+</front-stub>
+    <body>
+      <p>Science still struggles with reliable taxonomy that forms the
+foundation for many subsequent studies on marine ecosystems. A case
+study with integrative approach reports first phylogenetic understanding
+of the genus <italic>Acanthocope</italic> (Isopoda: Munnopsidae) as well
+as its biogeography in the North Atlantic, in addition with the
+description of a new species.</p>
+      <p>(… more with results: Hybridization of Morphogroup 2? Confirm of
+monophyly? etc.)</p>
+      <p>(… what impact does this have? “Contributing to current understanding
+of evolution pattern of Munnopsidae”??)</p>
+    </body>
+    <back>
+</back>
+  </sub-article>
+  <sub-article article-type="notebook" id="nb-4-nb-2">
+    <front-stub>
+</front-stub>
+    <body>
+      <sec id="integrative-taxonomy-of-the-northern-atlantic-acanthocope-beddard-1885-with-the-description-of-a-new-species-nb-2">
+        <title>Integrative taxonomy of the northern Atlantic
+  <italic>Acanthocope</italic> Beddard 1885, with the description of a
+  new species</title>
+        <p><italic>Acanthocope</italic> Beddard 1885 is a genus of munnopsid
+  isopod found worldwide between 1243 and 5778 m depth. Equipped with
+  swimming pereopods, <italic>Acanthocope</italic> species are expected
+  to have a wider distribution pattern, but current data on the species
+  do not reflect this status, partly due to limited sampling and many
+  species being recorded only at their type localities. Here, we
+  supplement further records in the Northeast Atlantic with animals
+  collected during the IceAGE3 (2020), IceDivA (2021), and IceDivA2
+  (2021) expeditions, and report the first genetic data (COI, 18S) for
+  this genus, besides the only cosmopolitan species <italic>A.
+  galatheae</italic> which has been previously sequenced. Comprising 18
+  species so far, the taxonomy of the genus has only been evaluated
+  morphologically, making this result the first phylogenetic insight
+  within the genus. We also used proteomic fingerprinting data
+  (MALDI-TOF) to support the integrative approach.</p>
+        <p>We confirmed the presence of <italic>A. unicornis</italic> Menzies
+  1962 from the Southern Atlantic and <italic>A. muelleri</italic>
+  Malyutina 1999 from the Argentine Basin at Northeast Atlantic. Genetic
+  data revealed that the three most recently described species
+  <italic>A. eleganta</italic> Malyutina &amp; Brandt 2004 from
+  northwest Weddell Sea, <italic>A. puertoricana</italic> Malyutina 2018
+  from the Puerto Rico Trench, and <italic>A. galaica</italic> Malyutina
+  2018 from the Galicia Bank, are indistinguishable by both nuclear and
+  mitochondrial markers, which is also supported by proteomic data. All
+  three species may represent a single species with a somewhat
+  pronounced intraspecific variation in morphology. <italic>A.
+  eleganta</italic> is likely to represent the manca stage of the
+  species, since the adult individual of <italic>A. eleganta</italic>
+  has never been observed, and the morphology does not promise a
+  substantial difference from <italic>A. puertoricana</italic> and
+  <italic>A. galaica</italic>.</p>
+        <p>In addition, we examine the type material of <italic>A.
+  armata</italic> Chardy 1972, <italic>A. puertoricana</italic>
+  Malyutina 2018 and <italic>A. eleganta</italic> Malyutina &amp; Brandt
+  2004, and describe a new species of the genus discovered in the
+  Porcupine Abyssal Plain, northeast Atlantic at 4577 m depth.</p>
+      </sec>
+    </body>
+    <back>
+</back>
+  </sub-article>
+  <sub-article article-type="notebook" id="nb-6-nb-3">
+    <front-stub>
+</front-stub>
+    <body>
+      <sec id="introduction-nb-3">
+        <title>Introduction</title>
+        <sec id="outline-nb-3">
+          <title>Outline</title>
+          <list list-type="order">
+            <list-item>
+              <p>Short description of diversity and distribution summarized by
+        Malyutina2018</p>
+            </list-item>
+            <list-item>
+              <p>Data missing in northern Atlantic</p>
+            </list-item>
+            <list-item>
+              <p>Genetic data missing thus also phylogeny</p>
+            </list-item>
+            <list-item>
+              <p>Species delimitation vague: Morpho 1 and Morpho 2 </p>
+            </list-item>
+          </list>
+        </sec>
+      </sec>
+    </body>
+    <back>
+</back>
+  </sub-article>
+  <sub-article article-type="notebook" id="nb-8-nb-4">
+    <front-stub>
+</front-stub>
+    <body>
+      <sec id="phylogeny-nb-4">
+        <title>Phylogeny</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>18S and COI agree with each other (almost the same topology) -
+      we don’t have complex phylogenetic situation</p>
+          </list-item>
+          <list-item>
+            <p>Relative position of <italic>A. galatheae</italic> and
+      <italic>A. unicornis</italic> group are different in COI and 18S -
+      does that necessarily mean something? Or is it because of the junk
+      sequences? I will rerun with clean sequences and check with
+      Jenna.</p>
+          </list-item>
+          <list-item>
+            <p>A. puertoricana, A. galaica, A. eleganta are the same species -
+      confirmed by COI, 18S, proteomics. Morphologies are also
+      similar.</p>
+          </list-item>
+          <list-item>
+            <p>I used the same sequences to run 18S Bayesian Tree
+      (<italic>Disconnectes</italic> and <italic>Syneurycope</italic> as
+      outgroup), but then I got a polytomy at the root of the rest taxa
+      which can’t confirm <italic>Acanthocope</italic> as monophyly.
+      Although the branch supports are low, and the sequences are not
+      partitioned.</p>
+          </list-item>
+          <list-item>
+            <p>For publication, I probably need a more sophisticate Bayesian /
+      ML tree with partitioned 18S analysis, I am still trying to figure
+      out how to find the V (variable) regions to make the partition
+      scheme. Raupach et al.
+      (<xref alt="2009" rid="ref-raupach2009-nb-4" ref-type="bibr">2009</xref>)
+      did 18S evaluation in Munnopsidae level but they deleted the
+      hypervariable region, I might try to recreate their alignment to
+      find out the region they deleted, or might wrap things up and ask
+      Jenna.</p>
+          </list-item>
+        </list>
+        <fig>
+          <caption>
+            <p><bold>COI Bayesian Tree</bold> 193, 178 are blasted to
+    Homo sapiens, 107 is something else, the super long branch is
+    Polychaete, I will omit them later. I did a quick look and I think
+    that the polyphyly was a false alarm</p>
+          </caption>
+          <graphic mimetype="image" mime-subtype="png" xlink:href="assets/Phylogeny/COI_Bayesian.png"/>
+        </fig>
+        <fig>
+          <caption>
+            <p>18S ML Tree</p>
+          </caption>
+          <graphic mimetype="image" mime-subtype="png" xlink:href="assets/Phylogeny/18S_ML.png"/>
+        </fig>
+        <fig>
+          <caption>
+            <p>18S Bayesian Tree</p>
+          </caption>
+          <graphic mimetype="image" mime-subtype="png" xlink:href="assets/Phylogeny/18S_Bayesian.png"/>
+        </fig>
+      </sec>
+    </body>
+    <back>
+      <ref-list>
+        <title/>
+        <ref id="ref-raupach2009-nb-4">
+          <element-citation publication-type="article-journal">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Raupach</surname>
+                <given-names>Michael J</given-names>
+              </name>
+              <name>
+                <surname>Mayer</surname>
+                <given-names>Christoph</given-names>
+              </name>
+              <name>
+                <surname>Malyutina</surname>
+                <given-names>Marina</given-names>
+              </name>
+              <name>
+                <surname>Wägele</surname>
+                <given-names>Johann-Wolfgang</given-names>
+              </name>
+            </person-group>
+            <article-title>Multiple origins of deep-sea Asellota (Crustacea: Isopoda) from shallow waters revealed by molecular data</article-title>
+            <source>Proc. R. Soc. B.</source>
+            <year iso-8601-date="2009-03">2009</year>
+            <month>03</month>
+            <date-in-citation content-type="access-date">
+              <year iso-8601-date="2024-12-14">2024</year>
+              <month>12</month>
+              <day>14</day>
+            </date-in-citation>
+            <volume>276</volume>
+            <issue>1658</issue>
+            <issn>0962-8452, 1471-2954</issn>
+            <uri>https://royalsocietypublishing.org/doi/10.1098/rspb.2008.1063</uri>
+            <pub-id pub-id-type="doi">10.1098/rspb.2008.1063</pub-id>
+            <fpage>799</fpage>
+            <lpage>808</lpage>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </sub-article>
+  <sub-article article-type="notebook" id="nb-12-nb-5">
+    <front-stub>
+</front-stub>
+    <body>
+      <fig>
+        <caption>
+          <p>Emanuel_script_1.jpeg</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Emanuel_script_1.jpeg"/>
+      </fig>
+      <fig>
+        <caption>
+          <p>Emanuel_script_2.jpeg</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Emanuel_script_2.jpeg"/>
+      </fig>
+      <fig>
+        <caption>
+          <p>Emanuel_script_3.jpeg</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Emanuel_script_3.jpeg"/>
+      </fig>
+      <fig>
+        <caption>
+          <p>Emanuel_script_4.jpeg</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Emanuel_script_4.jpeg"/>
+      </fig>
+      <fig>
+        <caption>
+          <p>Holotype_male_A1(L)_basis.jpeg</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_A1(L)_basis.jpeg"/>
+      </fig>
+      <fig>
+        <caption>
+          <p>Holotype_male_A2(L)_Article4.jpeg</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_A2(L)_Article4.jpeg"/>
+      </fig>
+      <fig>
+        <caption>
+          <p>Holotype_male_A2(L)_Article5.jpeg</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_A2(L)_Article5.jpeg"/>
+      </fig>
+      <fig>
+        <caption>
+          <p>Holotype_male_A2(L).jpeg</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_A2(L).jpeg"/>
+      </fig>
+      <fig>
+        <caption>
+          <p>Holotype_male_Habitus_Dorsal.jpeg</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_Habitus_Dorsal.jpeg"/>
+      </fig>
+      <fig>
+        <caption>
+          <p>Holotype_male_Habitus_lateral.jpeg</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_Habitus_lateral.jpeg"/>
+      </fig>
+      <fig>
+        <caption>
+          <p>Holotype_male_Habitus_Posterior_Dorsal.jpeg</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_Habitus_Posterior_Dorsal.jpeg"/>
+      </fig>
+      <fig>
+        <caption>
+          <p>Holotype_male_Head_ventral.jpeg</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_Head_ventral.jpeg"/>
+      </fig>
+      <fig>
+        <caption>
+          <p>Holotype_male_Md(L)_details_1.jpeg</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_Md(L)_details_1.jpeg"/>
+      </fig>
+      <fig>
+        <caption>
+          <p>Holotype_male_Md(L)_lateral_details.jpeg</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_Md(L)_lateral_details.jpeg"/>
+      </fig>
+      <fig>
+        <caption>
+          <p>Holotype_male_Md(L)_palp_details.jpeg</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_Md(L)_palp_details.jpeg"/>
+      </fig>
+      <fig>
+        <caption>
+          <p>Holotype_male_Md(L)_ventral.jpeg</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_Md(L)_ventral.jpeg"/>
+      </fig>
+      <fig>
+        <caption>
+          <p>Holotype_male_Mx1(L)_whole.jpeg</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_Mx1(L)_whole.jpeg"/>
+      </fig>
+      <fig>
+        <caption>
+          <p>Holotype_male_Mx2(L)_whole.jpeg</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_Mx2(L)_whole.jpeg"/>
+      </fig>
+      <fig>
+        <caption>
+          <p>Holotype_male_Mxlp(L)_details_1.jpeg</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_Mxlp(L)_details_1.jpeg"/>
+      </fig>
+      <fig>
+        <caption>
+          <p>Holotype_male_Mxlp(L)_details_2.jpeg</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_Mxlp(L)_details_2.jpeg"/>
+      </fig>
+      <fig>
+        <caption>
+          <p>Holotype_male_Mxlp(L)_whole.jpeg</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_Mxlp(L)_whole.jpeg"/>
+      </fig>
+      <fig>
+        <caption>
+          <p>Holotype_male_P1(L).jpeg</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_P1(L).jpeg"/>
+      </fig>
+      <fig>
+        <caption>
+          <p>Holotype_male_P2(L)_Basis_Carpus.jpeg</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_P2(L)_Basis_Carpus.jpeg"/>
+      </fig>
+      <fig>
+        <caption>
+          <p>Holotype_male_P2(L)_Carpus.jpeg</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_P2(L)_Carpus.jpeg"/>
+      </fig>
+      <fig>
+        <caption>
+          <p>Holotype_male_P2(L)_Propodus.jpeg</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_P2(L)_Propodus.jpeg"/>
+      </fig>
+      <fig>
+        <caption>
+          <p>Holotype_male_P4(L).jpeg</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_P4(L).jpeg"/>
+      </fig>
+      <fig>
+        <caption>
+          <p>Holotype_male_P5(L)_Basis_Merus.jpeg</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_P5(L)_Basis_Merus.jpeg"/>
+      </fig>
+      <fig>
+        <caption>
+          <p>Holotype_male_P5(L)_Carpus.jpeg</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_P5(L)_Carpus.jpeg"/>
+      </fig>
+      <fig>
+        <caption>
+          <p>Holotype_male_P5(L)_Dactylus.jpeg</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_P5(L)_Dactylus.jpeg"/>
+      </fig>
+      <fig>
+        <caption>
+          <p>Holotype_male_P5(L)_Propodus.jpeg</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_P5(L)_Propodus.jpeg"/>
+      </fig>
+      <fig>
+        <caption>
+          <p>Holotype_male_Pereonite_CoxalSpine(R)_Dorsal.jpeg</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_Pereonite_CoxalSpine(R)_Dorsal.jpeg"/>
+      </fig>
+      <fig>
+        <caption>
+          <p>Holotype_male_Pleotelson_TerminalSpine_Dorsal.jpeg</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_Pleotelson_TerminalSpine_Dorsal.jpeg"/>
+      </fig>
+      <fig>
+        <caption>
+          <p>Holotype_male_Pleotelson_ventral.jpeg</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_Pleotelson_ventral.jpeg"/>
+      </fig>
+      <fig>
+        <caption>
+          <p>Holotype_male_Plp1_lateral.jpeg</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_Plp1_lateral.jpeg"/>
+      </fig>
+      <fig>
+        <caption>
+          <p>Holotype_male_Plp1_ventral_whole.jpeg</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_Plp1_ventral_whole.jpeg"/>
+      </fig>
+      <fig>
+        <caption>
+          <p>Holotype_male_Plp1+2_Perculum_ventral_whole.jpeg</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_Plp1+2_Perculum_ventral_whole.jpeg"/>
+      </fig>
+      <fig>
+        <caption>
+          <p>Holotype_male_Plp2_detail_1.jpeg</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_Plp2_detail_1.jpeg"/>
+      </fig>
+      <fig>
+        <caption>
+          <p>Holotype_male_Plp2(L)_flipped_details_1.jpeg</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_Plp2(L)_flipped_details_1.jpeg"/>
+      </fig>
+      <fig>
+        <caption>
+          <p>Holotype_male_Plp2(L)_flipped_details_2.jpeg</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_Plp2(L)_flipped_details_2.jpeg"/>
+      </fig>
+      <fig>
+        <caption>
+          <p>Holotype_male_Plp2(L)_flipped_whole.jpeg</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_Plp2(L)_flipped_whole.jpeg"/>
+      </fig>
+      <fig>
+        <caption>
+          <p>Holotype_male_Plp2(L)_whole.jpeg</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_Plp2(L)_whole.jpeg"/>
+      </fig>
+      <fig>
+        <caption>
+          <p>Holotype_male_Plp3(L).jpeg</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_Plp3(L).jpeg"/>
+      </fig>
+      <fig>
+        <caption>
+          <p>Holotype_male_Plp4(L).jpeg</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_Plp4(L).jpeg"/>
+      </fig>
+      <fig>
+        <caption>
+          <p>Holotype_male_Plp5(L).jpeg</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_Plp5(L).jpeg"/>
+      </fig>
+    </body>
+    <back>
+</back>
+  </sub-article>
+</article>
