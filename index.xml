@@ -233,7 +233,7 @@ Research</institution>
       </ref>
     </ref-list>
   </back>
-  <sub-article article-type="notebook" id="nb-3-nb-1">
+  <sub-article article-type="notebook" id="nb-2-nb-1">
     <front-stub>
 </front-stub>
     <body>
@@ -251,7 +251,7 @@ of evolution pattern of Munnopsidae”??)</p>
     <back>
 </back>
   </sub-article>
-  <sub-article article-type="notebook" id="nb-6-nb-2">
+  <sub-article article-type="notebook" id="nb-4-nb-2">
     <front-stub>
 </front-stub>
     <body>
@@ -300,7 +300,7 @@ of evolution pattern of Munnopsidae”??)</p>
     <back>
 </back>
   </sub-article>
-  <sub-article article-type="notebook" id="nb-9-nb-3">
+  <sub-article article-type="notebook" id="nb-6-nb-3">
     <front-stub>
 </front-stub>
     <body>
@@ -329,7 +329,7 @@ of evolution pattern of Munnopsidae”??)</p>
     <back>
 </back>
   </sub-article>
-  <sub-article article-type="notebook" id="nb-12-nb-4">
+  <sub-article article-type="notebook" id="nb-8-nb-4">
     <front-stub>
 </front-stub>
     <body>
@@ -439,7 +439,7 @@ of evolution pattern of Munnopsidae”??)</p>
       </ref-list>
     </back>
   </sub-article>
-  <sub-article article-type="notebook" id="nb-16-nb-5">
+  <sub-article article-type="notebook" id="nb-12-nb-5">
     <front-stub>
 </front-stub>
     <body>
@@ -475,12 +475,6 @@ of evolution pattern of Munnopsidae”??)</p>
       </fig>
       <fig>
         <caption>
-          <p>Holotype_male_A2(L).jpeg</p>
-        </caption>
-        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_A2(L).jpeg"/>
-      </fig>
-      <fig>
-        <caption>
           <p>Holotype_male_A2(L)_Article4.jpeg</p>
         </caption>
         <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_A2(L)_Article4.jpeg"/>
@@ -493,21 +487,27 @@ of evolution pattern of Munnopsidae”??)</p>
       </fig>
       <fig>
         <caption>
+          <p>Holotype_male_A2(L).jpeg</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_A2(L).jpeg"/>
+      </fig>
+      <fig>
+        <caption>
           <p>Holotype_male_Habitus_Dorsal.jpeg</p>
         </caption>
         <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_Habitus_Dorsal.jpeg"/>
       </fig>
       <fig>
         <caption>
-          <p>Holotype_male_Habitus_Posterior_Dorsal.jpeg</p>
-        </caption>
-        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_Habitus_Posterior_Dorsal.jpeg"/>
-      </fig>
-      <fig>
-        <caption>
           <p>Holotype_male_Habitus_lateral.jpeg</p>
         </caption>
         <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_Habitus_lateral.jpeg"/>
+      </fig>
+      <fig>
+        <caption>
+          <p>Holotype_male_Habitus_Posterior_Dorsal.jpeg</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_Habitus_Posterior_Dorsal.jpeg"/>
       </fig>
       <fig>
         <caption>
@@ -643,12 +643,6 @@ of evolution pattern of Munnopsidae”??)</p>
       </fig>
       <fig>
         <caption>
-          <p>Holotype_male_Plp1+2_Perculum_ventral_whole.jpeg</p>
-        </caption>
-        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_Plp1+2_Perculum_ventral_whole.jpeg"/>
-      </fig>
-      <fig>
-        <caption>
           <p>Holotype_male_Plp1_lateral.jpeg</p>
         </caption>
         <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_Plp1_lateral.jpeg"/>
@@ -658,6 +652,18 @@ of evolution pattern of Munnopsidae”??)</p>
           <p>Holotype_male_Plp1_ventral_whole.jpeg</p>
         </caption>
         <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_Plp1_ventral_whole.jpeg"/>
+      </fig>
+      <fig>
+        <caption>
+          <p>Holotype_male_Plp1+2_Perculum_ventral_whole.jpeg</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_Plp1+2_Perculum_ventral_whole.jpeg"/>
+      </fig>
+      <fig>
+        <caption>
+          <p>Holotype_male_Plp2_detail_1.jpeg</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_Plp2_detail_1.jpeg"/>
       </fig>
       <fig>
         <caption>
@@ -682,12 +688,6 @@ of evolution pattern of Munnopsidae”??)</p>
           <p>Holotype_male_Plp2(L)_whole.jpeg</p>
         </caption>
         <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_Plp2(L)_whole.jpeg"/>
-      </fig>
-      <fig>
-        <caption>
-          <p>Holotype_male_Plp2_detail_1.jpeg</p>
-        </caption>
-        <graphic mimetype="image" mime-subtype="jpeg" xlink:href="../notebooks/description_drawing/Holotype_male_Plp2_detail_1.jpeg"/>
       </fig>
       <fig>
         <caption>
