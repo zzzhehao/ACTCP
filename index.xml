@@ -338,19 +338,26 @@ of evolution pattern of Munnopsidae”??)</p>
         <list list-type="bullet">
           <list-item>
             <p>A. puertoricana, A. galaica, A. eleganta are the same species -
-      confirmed by COI, 18S, proteomics. Morphologies are also similar.
-      </p>
+      confirmed by COI, 18S, proteomics. Morphologies are also
+      similar.</p>
           </list-item>
           <list-item>
-            <p>For publication, I probably need a more sophisticate Bayesian /
-      ML tree with partitioned 18S analysis, I am still trying to figure
-      out how to find the V (variable) regions to make the partition
-      scheme. Raupach et al.
+            <p>18S showed that <italic>Acanthocope</italic> is not a monophyly
+      genus.</p>
+          </list-item>
+          <list-item>
+            <p>Osborn
+      (<xref alt="2009" rid="ref-osborn2009-nb-4" ref-type="bibr">2009</xref>)
+      has already mentioned a potential revision/unresolved relationship
+      between Acanthocopinae and Storyhyngurinae, but mentioned that the
+      same topology was not reproducible in raupach2009, which became a
+      polytomy in their 18S tree.</p>
+          </list-item>
+          <list-item>
+            <p>malyutina2003 revised the Storthyngurinae in morphology and the
+      revision is confirmed by Raupach et al.
       (<xref alt="2009" rid="ref-raupach2009-nb-4" ref-type="bibr">2009</xref>)
-      did 18S evaluation in Munnopsidae level but they deleted the
-      hypervariable region, I might try to recreate their alignment to
-      find out the region they deleted, or might wrap things up and ask
-      Jenna.</p>
+      (double check this).</p>
           </list-item>
         </list>
         <p>++++ Pending ++++</p>
@@ -376,6 +383,12 @@ of evolution pattern of Munnopsidae”??)</p>
           </caption>
           <graphic mimetype="image" mime-subtype="png" xlink:href="../result/01.22%20genetics%20result/Phylogeny_18S_Bayesian.png"/>
         </fig>
+        <list list-type="bullet">
+          <list-item>
+            <p>Documentation of the 18S analysis is
+      <ext-link ext-link-type="uri" xlink:href="../notebooks/31%20MM%20-%20Genetics.qmd">here</ext-link></p>
+          </list-item>
+        </list>
       </sec>
     </body>
     <back>
@@ -724,8 +737,76 @@ of evolution pattern of Munnopsidae”??)</p>
     <front-stub>
 </front-stub>
     <body>
+      <sec id="phylogeny-nb-6">
+        <title>Phylogeny</title>
+        <p>Sequence cleaning, reference mapping, alignment was done in
+  Geneious. S</p>
+        <sec id="s-nb-6">
+          <title>18S</title>
+          <list list-type="order">
+            <list-item>
+              <p>The 5’ and 3’ end of the MSA was first trimmed to a region
+        that at least the half of the alignment has reached the position
+        - to avoid included region where only one or two sequences are
+        available.</p>
+            </list-item>
+            <list-item>
+              <p>MSA was trimmed by
+        <ext-link ext-link-type="uri" xlink:href="https://home.cc.umanitoba.ca/~psgendb/doc/Castresana/Gblocks_documentation.html#Options">Gblocks</ext-link>
+        with following parameter:</p>
+              <list list-type="bullet">
+                <list-item>
+                  <p>Minimum Number Of Sequences For A Conserved Position: 9
+            (minimum)</p>
+                </list-item>
+                <list-item>
+                  <p>Minimum Number Of Sequences For A Flank Position: 9</p>
+                </list-item>
+                <list-item>
+                  <p>Maximum Number Of Contiguous Nonconserved Positions: 8
+            (default)</p>
+                </list-item>
+                <list-item>
+                  <p>Minimum Length Of A Block: 2 (default: 10, manually to
+            include more sites)</p>
+                </list-item>
+                <list-item>
+                  <p>Allowed Gap Positions: ALL</p>
+                </list-item>
+              </list>
+            </list-item>
+            <list-item>
+              <p>
+                <ext-link ext-link-type="uri" xlink:href="assets/Phylogeny/Alignment.fasta-gb.html">Gblocks
+        result</ext-link>
+              </p>
+            </list-item>
+            <list-item>
+              <p>Trimmed MSA was tested by IQTREE for best fitting model &gt;
+        HKY model (corresponds to <monospace>lset nst = 2</monospace> in
+        MrBayes)</p>
+            </list-item>
+            <list-item>
+              <p>MSA was imported into MrBayes and analysed with following
+        MrBayes command:</p>
+            </list-item>
+          </list>
+          <code language="default">    BEGIN MrBayes;
 
-</body>
+    set autoclose=yes nowarn=yes;
+    
+    lset nst=6 rates=invgamma code=Invermt;
+                                
+    mcmc ngen=10000000 nruns=6 nchains=6 relburnin=yes samplefreq=100 printfreq=10000 diagnfreq=10000 checkfreq=10000 savebrlens=yes starttree=random;
+                
+    sump burnin=500000;
+    sumt burnin=500000 contype=halfcompat;
+    report possel=yes siteomega=yes siterate=yes;
+
+    END;</code>
+        </sec>
+      </sec>
+    </body>
     <back>
 </back>
   </sub-article>

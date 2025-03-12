@@ -175,12 +175,55 @@
 
      <header id="title-block-header" class="quarto-title-block"></header><div id="quarto-content" class="page-columns page-rows-contents page-layout-article toc-left">
 <div id="quarto-sidebar-toc-left" class="sidebar toc-left">
-  
+  <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="2">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#phylogeny" id="toc-phylogeny" class="nav-link active" data-scroll-target="#phylogeny">Phylogeny</a>
+  <ul>
+  <li><a href="#s" id="toc-s" class="nav-link" data-scroll-target="#s">18S</a></li>
+  </ul></li>
+  </ul>
+</nav>
 </div>
 <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
 </div>
-<main class="content quarto-banner-title-block" id="quarto-document-content"><div class="quarto-title-block"><div class="quarto-title-tools-only"><h1></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i></button></div></div>    <!-- -->
+<main class="content quarto-banner-title-block" id="quarto-document-content"><div class="quarto-title-block"><div class="quarto-title-tools-only"><h1></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i></button></div></div>      <section id="phylogeny" class="level2">
+<h2 class="anchored" data-anchor-id="phylogeny">Phylogeny</h2>
+<p>Sequence cleaning, reference mapping, alignment was done in Geneious. S</p>
+<section id="s" class="level3">
+<h3 class="anchored" data-anchor-id="s">18S</h3>
+<ol type="1">
+<li>The 5’ and 3’ end of the MSA was first trimmed to a region that at least the half of the alignment has reached the position - to avoid included region where only one or two sequences are available.</li>
+<li>MSA was trimmed by <a href="https://home.cc.umanitoba.ca/~psgendb/doc/Castresana/Gblocks_documentation.html#Options">Gblocks</a> with following parameter:
+<ul>
+<li>Minimum Number Of Sequences For A Conserved Position: 9 (minimum)</li>
+<li>Minimum Number Of Sequences For A Flank Position: 9</li>
+<li>Maximum Number Of Contiguous Nonconserved Positions: 8 (default)</li>
+<li>Minimum Length Of A Block: 2 (default: 10, manually to include more sites)</li>
+<li>Allowed Gap Positions: ALL</li>
+</ul></li>
+<li><a href="assets/Phylogeny/Alignment.fasta-gb.html">Gblocks result</a></li>
+<li>Trimmed MSA was tested by IQTREE for best fitting model &gt; HKY model (corresponds to <code>lset nst = 2</code> in MrBayes)</li>
+<li>MSA was imported into MrBayes and analysed with following MrBayes command:</li>
+</ol>
+<div class="sourceCode" id="cb1"><pre class="sourceCode txt code-with-copy"><code class="sourceCode default"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>    BEGIN MrBayes;</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    set autoclose=yes nowarn=yes;</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    lset nst=6 rates=invgamma code=Invermt;</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>                                </span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    mcmc ngen=10000000 nruns=6 nchains=6 relburnin=yes samplefreq=100 printfreq=10000 diagnfreq=10000 checkfreq=10000 savebrlens=yes starttree=random;</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>                </span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    sump burnin=500000;</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    sumt burnin=500000 contype=halfcompat;</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    report possel=yes siteomega=yes siterate=yes;</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    END;</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<!-- -->
 
+</section>
+</section>
      </main>
 <!-- /main column -->  <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -650,7 +693,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
-<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">## </span></span></code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb2" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">## Phylogeny</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>Sequence cleaning, reference mapping, alignment was done in Geneious. S</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">### 18S</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>The 5' and 3' end of the MSA was first trimmed to a region that at least the half of the alignment has reached the position - to avoid included region where only one or two sequences are available.</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>MSA was trimmed by <span class="co">[</span><span class="ot">Gblocks</span><span class="co">](https://home.cc.umanitoba.ca/~psgendb/doc/Castresana/Gblocks_documentation.html#Options)</span> with following parameter:</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="ss">    - </span>Minimum Number Of Sequences For A Conserved Position: 9 (minimum)</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="ss">    - </span>Minimum Number Of Sequences For A Flank Position: 9</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="ss">    - </span>Maximum Number Of Contiguous Nonconserved Positions: 8 (default)</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="ss">    - </span>Minimum Length Of A Block: 2 (default: 10, manually to include more sites)</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="ss">    - </span>Allowed Gap Positions: ALL</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span><span class="co">[</span><span class="ot">Gblocks result</span><span class="co">](assets/Phylogeny/Alignment.fasta-gb.html)</span></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>Trimmed MSA was tested by IQTREE for best fitting model &gt; HKY model (corresponds to <span class="in">`lset nst = 2`</span> in MrBayes)</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a><span class="ss">5. </span>MSA was imported into MrBayes and analysed with following MrBayes command:</span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a><span class="in">```txt</span></span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a><span class="in">    BEGIN MrBayes;</span></span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a><span class="in">    set autoclose=yes nowarn=yes;</span></span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a><span class="in">    </span></span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a><span class="in">    lset nst=6 rates=invgamma code=Invermt;</span></span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a><span class="in">                                </span></span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a><span class="in">    mcmc ngen=10000000 nruns=6 nchains=6 relburnin=yes samplefreq=100 printfreq=10000 diagnfreq=10000 checkfreq=10000 savebrlens=yes starttree=random;</span></span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a><span class="in">                </span></span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a><span class="in">    sump burnin=500000;</span></span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a><span class="in">    sumt burnin=500000 contype=halfcompat;</span></span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a><span class="in">    report possel=yes siteomega=yes siterate=yes;</span></span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a><span class="in">    END;</span></span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>  </div> <!-- /content --> 
   
 </body></html>

@@ -1,1 +1,32 @@
-## 
+## Phylogeny
+
+Sequence cleaning, reference mapping, alignment was done in Geneious. S
+
+### 18S
+
+1. The 5' and 3' end of the MSA was first trimmed to a region that at least the half of the alignment has reached the position - to avoid included region where only one or two sequences are available.
+2. MSA was trimmed by [Gblocks](https://home.cc.umanitoba.ca/~psgendb/doc/Castresana/Gblocks_documentation.html#Options) with following parameter:
+    - Minimum Number Of Sequences For A Conserved Position: 9 (minimum)
+    - Minimum Number Of Sequences For A Flank Position: 9
+    - Maximum Number Of Contiguous Nonconserved Positions: 8 (default)
+    - Minimum Length Of A Block: 2 (default: 10, manually to include more sites)
+    - Allowed Gap Positions: ALL
+3. [Gblocks result](assets/Phylogeny/Alignment.fasta-gb.html)
+4. Trimmed MSA was tested by IQTREE for best fitting model > HKY model (corresponds to `lset nst = 2` in MrBayes)
+5. MSA was imported into MrBayes and analysed with following MrBayes command:
+
+```txt
+    BEGIN MrBayes;
+
+    set autoclose=yes nowarn=yes;
+    
+    lset nst=6 rates=invgamma code=Invermt;
+                                
+    mcmc ngen=10000000 nruns=6 nchains=6 relburnin=yes samplefreq=100 printfreq=10000 diagnfreq=10000 checkfreq=10000 savebrlens=yes starttree=random;
+                
+    sump burnin=500000;
+    sumt burnin=500000 contype=halfcompat;
+    report possel=yes siteomega=yes siterate=yes;
+
+    END;
+```

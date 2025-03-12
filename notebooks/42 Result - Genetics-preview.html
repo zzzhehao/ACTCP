@@ -210,11 +210,11 @@
 </div>
 <main class="content quarto-banner-title-block" id="quarto-document-content"><div class="quarto-title-block"><div class="quarto-title-tools-only"><h1></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i></button></div></div>      <section id="phylogeny" class="level2">
 <h2 class="anchored" data-anchor-id="phylogeny">Phylogeny</h2>
-<!-- - 18S and COI agree with each other (almost the same topology) - we don't have complex phylogenetic situation -->
-<!-- - Relative position of *A. galatheae* and *A. unicornis* group are different in COI and 18S - does that necessarily mean something? Or is it because of the junk sequences? I will rerun with clean sequences and check with Jenna. -->
 <ul>
-<li>A. puertoricana, A. galaica, A. eleganta are the same species - confirmed by COI, 18S, proteomics. Morphologies are also similar. <!-- - I used the same sequences to run 18S Bayesian Tree (*Disconnectes* and *Syneurycope* as outgroup), but then I got a polytomy at the root of the rest taxa which can't confirm *Acanthocope* as monophyly. Although the branch supports are low, and the sequences are not partitioned. --></li>
-<li>For publication, I probably need a more sophisticate Bayesian / ML tree with partitioned 18S analysis, I am still trying to figure out how to find the V (variable) regions to make the partition scheme. <span class="citation" data-cites="raupach2009">Raupach et al. (<a href="#ref-raupach2009" role="doc-biblioref">2009</a>)</span> did 18S evaluation in Munnopsidae level but they deleted the hypervariable region, I might try to recreate their alignment to find out the region they deleted, or might wrap things up and ask Jenna.</li>
+<li>A. puertoricana, A. galaica, A. eleganta are the same species - confirmed by COI, 18S, proteomics. Morphologies are also similar.</li>
+<li>18S showed that <em>Acanthocope</em> is not a monophyly genus.</li>
+<li><span class="citation" data-cites="osborn2009">Osborn (<a href="#ref-osborn2009" role="doc-biblioref">2009</a>)</span> has already mentioned a potential revision/unresolved relationship between Acanthocopinae and Storyhyngurinae, but mentioned that the same topology was not reproducible in raupach2009, which became a polytomy in their 18S tree.</li>
+<li>malyutina2003 revised the Storthyngurinae in morphology and the revision is confirmed by <span class="citation" data-cites="raupach2009">Raupach et al. (<a href="#ref-raupach2009" role="doc-biblioref">2009</a>)</span> (double check this).</li>
 </ul>
 <p>++++ Pending ++++</p>
 <p>Storthyngurinae (<em>Storthyngura, Storthyngurella, Sursumura, Vanhoeffenella, Rectisura</em>) might be a group nested inside <em>Acanthocope</em>. I got a specimen of <em>Sursumura sp.</em> (10.3.25, S0803) and it looks very, very, very similar to <em>Acanthocope</em> except P1 dorsomedial spine and pleotelson. Although it sill doesn’t really make sense to me to separate <em>A. galatheae</em> from the rest of the group in morphology. <em>Acanthocopinae</em> and <em>Storthyngurinae</em> might need some revision. I am still improving 18S and COI analysis to confirm this. My current version of 18S phylogeny has relative high confidence on this.</p>
@@ -224,6 +224,9 @@
 <figcaption><strong>18S Bayesian Tree</strong> Red clades are current <em>Acanthocope</em> genus, <em>Ilyarachna antarctica</em> as outgroup according to Munnopsidae phylogeny resolved by <span class="citation" data-cites="osborn2009">Osborn (<a href="#ref-osborn2009" role="doc-biblioref">2009</a>)</span>, the rest black clade are all from Storthyngurinae</figcaption>
 </figure>
 </div>
+<ul>
+<li>Documentation of the 18S analysis is <a href="../notebooks/31 MM - Genetics-preview.html">here</a></li>
+</ul>
 <!-- -->
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
@@ -706,17 +709,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
 <div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">## Phylogeny</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- - 18S and COI agree with each other (almost the same topology) - we don't have complex phylogenetic situation --&gt;</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- - Relative position of *A. galatheae* and *A. unicornis* group are different in COI and 18S - does that necessarily mean something? Or is it because of the junk sequences? I will rerun with clean sequences and check with Jenna. --&gt;</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>A. puertoricana, A. galaica, A. eleganta are the same species - confirmed by COI, 18S, proteomics. Morphologies are also similar.</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- - I used the same sequences to run 18S Bayesian Tree (*Disconnectes* and *Syneurycope* as outgroup), but then I got a polytomy at the root of the rest taxa which can't confirm *Acanthocope* as monophyly. Although the branch supports are low, and the sequences are not partitioned. --&gt;</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>For publication, I probably need a more sophisticate Bayesian / ML tree with partitioned 18S analysis, I am still trying to figure out how to find the V (variable) regions to make the partition scheme. @raupach2009 did 18S evaluation in Munnopsidae level but they deleted the hypervariable region, I might try to recreate their alignment to find out the region they deleted, or might wrap things up and ask Jenna.</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>++++ Pending ++++</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>Storthyngurinae (*Storthyngura, Storthyngurella, Sursumura, Vanhoeffenella, Rectisura*) might be a group nested inside *Acanthocope*. I got a specimen of *Sursumura sp.* (10.3.25, S0803) and it looks very, very, very similar to *Acanthocope* except P1 dorsomedial spine and pleotelson. Although it sill doesn't really make sense to me to separate *A. galatheae* from the rest of the group in morphology. *Acanthocopinae* and *Storthyngurinae* might need some revision. I am still improving 18S and COI analysis to confirm this. My current version of 18S phylogeny has relative high confidence on this.</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="al">![**18S Bayesian Tree** Red clades are current *Acanthocope* genus, *Ilyarachna antarctica* as outgroup according to Munnopsidae phylogeny resolved by @osborn2009, the rest black clade are all from Storthyngurinae](/result/01.22%20genetics%20result/Phylogeny_18S_Bayesian.png)</span></span></code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>A. puertoricana, A. galaica, A. eleganta are the same species - confirmed by COI, 18S, proteomics. Morphologies are also similar.</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>18S showed that *Acanthocope* is not a monophyly genus.</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>@osborn2009 has already mentioned a potential revision/unresolved relationship between Acanthocopinae and Storyhyngurinae, but mentioned that the same topology was not reproducible in raupach2009, which became a polytomy in their 18S tree.</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>malyutina2003 revised the Storthyngurinae in morphology and the revision is confirmed by @raupach2009 (double check this).</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>++++ Pending ++++</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>Storthyngurinae (*Storthyngura, Storthyngurella, Sursumura, Vanhoeffenella, Rectisura*) might be a group nested inside *Acanthocope*. I got a specimen of *Sursumura sp.* (10.3.25, S0803) and it looks very, very, very similar to *Acanthocope* except P1 dorsomedial spine and pleotelson. Although it sill doesn't really make sense to me to separate *A. galatheae* from the rest of the group in morphology. *Acanthocopinae* and *Storthyngurinae* might need some revision. I am still improving 18S and COI analysis to confirm this. My current version of 18S phylogeny has relative high confidence on this.</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="al">![**18S Bayesian Tree** Red clades are current *Acanthocope* genus, *Ilyarachna antarctica* as outgroup according to Munnopsidae phylogeny resolved by @osborn2009, the rest black clade are all from Storthyngurinae](/result/01.22%20genetics%20result/Phylogeny_18S_Bayesian.png)</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Documentation of the 18S analysis is <span class="co">[</span><span class="ot">here</span><span class="co">](/notebooks/31%20MM%20-%20Genetics.qmd)</span></span></code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>  </div> <!-- /content -->  <script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
 (function() {
   let previousOnload = window.onload;

@@ -1,10 +1,9 @@
 ## Phylogeny
 
-<!-- - 18S and COI agree with each other (almost the same topology) - we don't have complex phylogenetic situation -->
-<!-- - Relative position of *A. galatheae* and *A. unicornis* group are different in COI and 18S - does that necessarily mean something? Or is it because of the junk sequences? I will rerun with clean sequences and check with Jenna. -->
 - A. puertoricana, A. galaica, A. eleganta are the same species - confirmed by COI, 18S, proteomics. Morphologies are also similar.
-<!-- - I used the same sequences to run 18S Bayesian Tree (*Disconnectes* and *Syneurycope* as outgroup), but then I got a polytomy at the root of the rest taxa which can't confirm *Acanthocope* as monophyly. Although the branch supports are low, and the sequences are not partitioned. -->
-- For publication, I probably need a more sophisticate Bayesian / ML tree with partitioned 18S analysis, I am still trying to figure out how to find the V (variable) regions to make the partition scheme. @raupach2009 did 18S evaluation in Munnopsidae level but they deleted the hypervariable region, I might try to recreate their alignment to find out the region they deleted, or might wrap things up and ask Jenna.
+- 18S showed that *Acanthocope* is not a monophyly genus.
+- @osborn2009 has already mentioned a potential revision/unresolved relationship between Acanthocopinae and Storyhyngurinae, but mentioned that the same topology was not reproducible in raupach2009, which became a polytomy in their 18S tree.
+- malyutina2003 revised the Storthyngurinae in morphology and the revision is confirmed by @raupach2009 (double check this).
 
 ++++ Pending ++++
 
@@ -12,3 +11,4 @@ Storthyngurinae (*Storthyngura, Storthyngurella, Sursumura, Vanhoeffenella, Rect
 
 ![**18S Bayesian Tree** Red clades are current *Acanthocope* genus, *Ilyarachna antarctica* as outgroup according to Munnopsidae phylogeny resolved by @osborn2009, the rest black clade are all from Storthyngurinae](/result/01.22%20genetics%20result/Phylogeny_18S_Bayesian.png)
 
+- Documentation of the 18S analysis is [here](/notebooks/31%20MM%20-%20Genetics.qmd)
