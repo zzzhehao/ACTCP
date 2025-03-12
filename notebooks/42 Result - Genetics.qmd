@@ -11,3 +11,4 @@
 Storthyngurinae (*Storthyngura, Storthyngurella, Sursumura, Vanhoeffenella, Rectisura*) might be a group nested inside *Acanthocope*. I got a specimen of *Sursumura sp.* (10.3.25, S0803) and it looks very, very, very similar to *Acanthocope* except P1 dorsomedial spine and pleotelson. Although it sill doesn't really make sense to me to separate *A. galatheae* from the rest of the group in morphology. *Acanthocopinae* and *Storthyngurinae* might need some revision. I am still improving 18S and COI analysis to confirm this. My current version of 18S phylogeny has relative high confidence on this.
 
 ![**18S Bayesian Tree** Red clades are current *Acanthocope* genus, *Ilyarachna antarctica* as outgroup according to Munnopsidae phylogeny resolved by @osborn2009, the rest black clade are all from Storthyngurinae](/result/01.22%20genetics%20result/Phylogeny_18S_Bayesian.png)
+
