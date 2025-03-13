@@ -1,0 +1,43 @@
+## Phylogeny
+
+Sequence cleaning, reference mapping, alignment was done in Geneious. S
+
+### 18S
+
+1. The 5' and 3' end of the MSA was first trimmed to a region that at least the half of the alignment has reached the position - to avoid included region where only one or two sequences are available.
+2. MSA was trimmed by [Gblocks](https://home.cc.umanitoba.ca/~psgendb/doc/Castresana/Gblocks_documentation.html#Options) with following parameter:
+    - Minimum Number Of Sequences For A Conserved Position: 9 (minimum)
+    - Minimum Number Of Sequences For A Flank Position: 9
+    - Maximum Number Of Contiguous Nonconserved Positions: 8 (default)
+    - Minimum Length Of A Block: 2 (default: 10, manually to include more sites)
+    - Allowed Gap Positions: ALL
+3. [Gblocks result](assets/Phylogeny/Alignment.fasta-gb.html)
+4. Trimmed MSA was tested by IQTREE for best fitting model > HKY model (corresponds to `lset nst = 2` in MrBayes)
+5. A joint analysis with concatenated sequences (COI + Gblocks trimmed 18S) was done with following MrBayes command, which also corresponds to MrBayes command used for COI and 18S analysis.
+
+```
+BEGIN MrBayes;
+
+set autoclose=yes nowarn=yes;
+
+charset COI_pos1 = 1-623.\3;
+charset COI_pos2 = 2-623-.\3;
+charset COI_pos3 = 3-623.\3;
+charset 18S = 624-2663;
+partition conc = 4: COI_pos1, COI_pos2, COI_pos3, 18S;
+
+set partition=conc;
+
+lset applyto=(1,2,3) nst=2 rates=invgamma code=Invermt ploidy=Haploid;
+lset applyto=(4) nst=6 rates=invgamma;
+                            
+mcmc ngen=5000000 nruns=6 nchains=6 relburnin=yes samplefreq=100 printfreq=10000 diagnfreq=10000 checkfreq=10000 savebrlens=yes starttree=random;
+            
+sump burnin=500000;
+sumt burnin=500000 contype=halfcompat;
+report possel=yes siteomega=yes siterate=yes;
+
+END;
+```
+
+6. *Vanhoeffenura sp.* is the only data from NCBI gene bank that has both 18S and COI from the same specimen (MB E1). COI: *EF682284.1*, 18S: *EF682239.1*.

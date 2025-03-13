@@ -1,0 +1,17 @@
+## Phylogeny
+
+![**18S Bayesian Tree** Red clades are current *Acanthocope* genus, *Ilyarachna antarctica* as outgroup according to Munnopsidae phylogeny resolved by @osborn2009, the rest black clade are all from Storthyngurinae](/result/01.22%20genetics%20result/Phylogeny_18S_Bayesian.png)
+
+![**COI Bayesian Tree**](/result/01.22%20genetics%20result/Phylogeny_COI_Bayesian_2.png)
+
+- Both 18S and COI suggest that A. puertoricana, A. galaica, A. eleganta are the same species. 
+- 18S showed that *Acanthocope* is not a monophyly genus. COI disagrees, *Acanthocope* is monophyly in COI tree.
+- @osborn2009 has already mentioned a potential revision/unresolved relationship between Acanthocopinae and Storyhyngurinae, but mentioned that the same topology was not reproducible in raupach2009, which became a polytomy in their 18S tree.
+- @malyutina2003 revised the Storthyngurinae in morphology and the genetic monophyly is confirmed by @raupach2009.
+
+### Problem to clarify
+
+1. Does 86 and 80 display a good / enough branch support to conclude that 18S *Acanthocope* is not monophyly?
+2. If true, how to explain the different history? 
+
+- Documentation of the 18S analysis is [here](/notebooks/31MM_Genetics.qmd)
